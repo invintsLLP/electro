@@ -1,6 +1,7 @@
 <footer>
   
     <div class="inv--newsletter-main">
+      <div class="container">
       {% for block in section.blocks %}      
       {% if block.type == 'newsletter' %}
       {%- if block.settings.newsletter_enable -%}
@@ -59,6 +60,7 @@
       {% endif %}
       {% endif %}
       {% endfor %}
+      </div>
     </div>
     <div class="inv--footer-main">
       <div class="container">
