@@ -2830,8 +2830,8 @@ details-disclosure > details {
   }
 
   .grid__item {
-    padding-left: var(--grid-mobile-horizontal-spacing);
-    padding-bottom: var(--grid-mobile-vertical-spacing);
+    padding-left: 4px;
+    padding-bottom: 4px;
   }
 
   @media screen and (min-width: 750px) {
@@ -2852,12 +2852,12 @@ details-disclosure > details {
 
   @media screen and (min-width: 749px) {
     .grid--peek .grid__item {
-      padding-left: var(--grid-mobile-horizontal-spacing);
+      padding-left: 4px;
     }
   }
 
   .product-grid .grid__item {
-    padding-bottom: var(--grid-mobile-vertical-spacing);
+    padding-bottom: 4px;
   }
 
   @media screen and (min-width: 750px) {
