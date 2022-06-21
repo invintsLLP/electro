@@ -250,6 +250,12 @@
               "phone_text": "(+00) 123 456 789",
               "show_social": true
             }
+          },
+          "ef5a66e5-fb63-4062-88b6-f912f84bece9": {
+            "type": "linklist",
+            "settings": {
+              "link_list_1": "footer"
+            }
           }
         },
         "block_order": [
@@ -260,7 +266,8 @@
           "0ac75fea-936b-411f-b24b-b1987b9a352e",
           "43a3ed4b-4275-4beb-8417-77cbbfb841cd",
           "a565a76c-ae3d-4345-8340-1ff008954d1b",
-          "c3a8b4dc-175e-4f78-9624-ff6d822ecf97"
+          "c3a8b4dc-175e-4f78-9624-ff6d822ecf97",
+          "ef5a66e5-fb63-4062-88b6-f912f84bece9"
         ],
         "settings": {
           "copyright_text": "",
