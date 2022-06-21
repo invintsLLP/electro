@@ -990,8 +990,8 @@ summary::-webkit-details-marker {
 }
 
 .grid__item {
-  width: calc(25% - var(--grid-mobile-horizontal-spacing) * 3 / 4);
-  max-width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2);
+  width: calc(25% - 4px * 3 / 4);
+  max-width: calc(50% - 4px / 2);
   flex-grow: 1;
   flex-shrink: 0;
 }
@@ -1021,7 +1021,7 @@ summary::-webkit-details-marker {
 }
 
 .grid--3-col .grid__item {
-  width: calc(33.33% - var(--grid-mobile-horizontal-spacing) * 2 / 3);
+  width: calc(33.33% - 4px * 2 / 3);
 }
 
 @media screen and (min-width: 750px) {
@@ -1031,7 +1031,7 @@ summary::-webkit-details-marker {
 }
 
 .grid--2-col .grid__item {
-  width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2);
+  width: calc(50% - 4px / 2);
 }
 
 @media screen and (min-width: 750px) {
@@ -1132,17 +1132,17 @@ summary::-webkit-details-marker {
   }
 
   .grid--2-col-tablet-down .grid__item {
-    width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2);
+    width: calc(50% - 4px / 2);
   }
 
   .slider--tablet.grid--peek.grid--2-col-tablet-down .grid__item,
   .grid--peek .grid__item {
-    width: calc(50% - var(--grid-mobile-horizontal-spacing) - 3rem);
+    width: calc(50% - 4px - 3rem);
   }
 
   .slider--tablet.grid--peek.grid--1-col-tablet-down .grid__item,
   .slider--mobile.grid--peek.grid--1-col-tablet-down .grid__item  {
-    width: calc(100% - var(--grid-mobile-horizontal-spacing) - 3rem);
+    width: calc(100% - 4px - 3rem);
   }
 }
 
@@ -2826,7 +2826,7 @@ details-disclosure > details {
 /* check for flexbox gap in older Safari versions */
 @supports not (inset: 10px) {
   .grid {
-    margin-left: calc(-1 * var(--grid-mobile-horizontal-spacing));
+    margin-left: calc(-1 * 4px);
   }
 
   .grid__item {
