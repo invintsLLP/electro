@@ -484,6 +484,9 @@ div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
   	margin-bottom:20px;
     justify-content:center;
   }
+  .inv--linklist.inv--linklist--one ul.inv--linklist-main {
+    column-count: 1;
+}
 }
 @media(max-width:767px){
 	
