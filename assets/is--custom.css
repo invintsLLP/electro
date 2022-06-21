@@ -30,3 +30,15 @@ a{
     font-weight: 600;
     text-transform: capitalize;
 }
+.inv--newsletter-main .inv--newsletter {
+    display: flex;
+    justify-content: space-between;
+}
+.inv--newsletter-main .inv--newsletter .inv--newsletter-head {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.inv--newsletter-main .inv--newsletter .inv--newsletter-form {
+    width: 50%;
+}
