@@ -70,7 +70,9 @@
           	{{block.settings.svg_logo}}
           </span>
           {% else %}
+          <div class="inv--logo-image">
            <img src="{{block.settings.logo_image | img_url:"master"}}" alt="{{block.settings.logo_image}}" class="layload">
+          </div>
           {% endif %}
         </div>
       </div>
