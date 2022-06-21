@@ -93,6 +93,7 @@
 
         <div class="inv--logo-contact">        
           <div class="inv--logo-footer">
+            <a href="{{shop.url}}">
             {% if block.settings.svg_logo != blank %}
             <span>
               {{block.settings.svg_logo}}
@@ -102,6 +103,7 @@
               <img src="{{block.settings.logo_image | img_url:"master"}}" alt="{{block.settings.logo_image}}" class="layload">
             </div>
             {% endif %}
+            </a>
           </div>
           {% if block.settings.contact_location_icon != blank or block.settings.location_text != blank or  block.settings.contact_mail_icon != blank or block.settings.mail_text != blank or block.settings.contact_phone_icon != blank or block.settings.phone_text != blank %}
           <div class="inv--contact-main">
