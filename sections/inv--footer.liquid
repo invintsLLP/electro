@@ -5,9 +5,15 @@
       
 <!--Newsletter Section -->
       {% if block.type == 'newsletter' %}
+      {%- if block.settings.newsletter_enable -%}
       <div class="inv--newsletter">
-			
+        {% if block.settings.newsletter_heading != blank %}
+        <div class="">
+          <h4>{{block.settings.newsletter_heading}}</h4>
+        </div>
+        {% endif %}
       </div>
+      {% endif %}
       {% endif %}
       
 <!--Logo Section -->
