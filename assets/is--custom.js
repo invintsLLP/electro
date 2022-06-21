@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    setTimeout(function() {
   $('.inv--logo-section').slick({
     dots: true,
     infinite: false,
@@ -31,4 +32,5 @@ $(document).ready(function() {
       }
     ]
   });
+      }, 200);
 });
