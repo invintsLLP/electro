@@ -63,3 +63,6 @@ a{
 input#NewsletterForm--inv--footer {
     border-radius: 6px 0 0 6px;
 }
+.newsletter-form__field-wrapper .field:hover.field:after{
+	
+}
