@@ -46,13 +46,12 @@ a{
 }
 .inv--newsletter-main .inv--newsletter .inv--newsletter-form .newsletter-form__button {
     background: #FFE472;
-    border-radius: 0px 6px 6px 0px;
+    border-radius: 0 6px 6px 0;
     border: none;
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 600;
     font-size: 18px;
-    letter-spacing: 0.03em;
+    letter-spacing: 0;
     text-transform: uppercase;
-    color: #20488A;
+    color: #20488a;
+    font-family: Poppins, sans-serif;
 }
