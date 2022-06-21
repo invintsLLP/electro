@@ -258,6 +258,18 @@
             "settings": {
               "link_list_1": "footer"
             }
+          },
+          "10f2439d-7842-48d3-a3ff-24563ad9d277": {
+            "type": "linklist",
+            "settings": {
+              "link_list_1": "further-info"
+            }
+          },
+          "efe6d79c-0f4c-4c02-a1a6-9e10d9216e6d": {
+            "type": "linklist",
+            "settings": {
+              "link_list_1": "customer-service"
+            }
           }
         },
         "block_order": [
@@ -269,7 +281,9 @@
           "43a3ed4b-4275-4beb-8417-77cbbfb841cd",
           "a565a76c-ae3d-4345-8340-1ff008954d1b",
           "c3a8b4dc-175e-4f78-9624-ff6d822ecf97",
-          "ef5a66e5-fb63-4062-88b6-f912f84bece9"
+          "ef5a66e5-fb63-4062-88b6-f912f84bece9",
+          "10f2439d-7842-48d3-a3ff-24563ad9d277",
+          "efe6d79c-0f4c-4c02-a1a6-9e10d9216e6d"
         ],
         "settings": {
           "copyright_text": "<p>Copyright © 2022 Electro. All Rights Reserved.<\/p>",
