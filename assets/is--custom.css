@@ -56,7 +56,7 @@ a{
     font-family: 'Poppins, sans-serif';
 }
 input#NewsletterForm--inv--footer:placeholder,
-.newsletter-form__field-wrapper label.field__label{
+label.field__label{
   font-size: 18px;
   line-height: 22px;
   color: #938B84;
