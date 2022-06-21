@@ -2,12 +2,16 @@
   <div class="container">
     <div class="inv--footer-main">
       {% for block in section.blocks %}
+      {% if block.type == 'newsletter' %}
       <div class="inv--newsletter">
 			
       </div>
-      <div class="inv--newsletter">
+      {% endif %}
+      {% if block.type == 'logo' %}
+      <div class="inv--logo">
 
       </div>
+       {% endif %}
       {% endfor %}
     </div>   
   </div>
