@@ -44,7 +44,7 @@ a{
 .inv--newsletter-main .inv--newsletter .inv--newsletter-form {
     width: 50%;
 }
-.newsletter-form__button {
+.inv--newsletter-main .inv--newsletter .inv--newsletter-form .newsletter-form__button {
     background: #FFE472;
     border-radius: 0px 6px 6px 0px;
     border: none;
