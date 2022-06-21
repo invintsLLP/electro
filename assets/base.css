@@ -1256,7 +1256,7 @@ button.shopify-payment-button__button--unbranded,
 .cart__dynamic-checkout-buttons [role='button'],
 .cart__dynamic-checkout-buttons iframe {
   --shadow-horizontal-offset: 0px;
-  --shadow-vertical-offset: var(--buttons-shadow-vertical-offset);
+  --shadow-vertical-offset: 4px;
   --shadow-blur-radius: var(--buttons-shadow-blur-radius);
   --shadow-opacity: 0;
   --shadow-visible: 0;
