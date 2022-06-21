@@ -1329,7 +1329,7 @@ button.shopify-payment-button__button--unbranded {
   bottom: 1px;
   left: 1px;
   z-index: 1;
-  border-radius: var(--buttons-radius);
+  border-radius: 0px;
   box-shadow: 0 0 0 calc(1px + var(--border-offset)) rgba(var(--color-button-text), var(--border-opacity)),
     0 0 0 1px rgba(var(--color-button), var(--alpha-button-background));
   transition: box-shadow var(--duration-short) ease;
