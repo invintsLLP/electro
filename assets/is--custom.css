@@ -89,3 +89,11 @@ input#NewsletterForm--inv--footer {
 .inv--footer-main .inv--logo-image img {
     margin: 0 auto;
 }
+.inv--footer-main .inv--logo-section .slick-track {
+    display: flex;
+    align-items: center;
+}
+.inv--logo-section:not(.slick-initialized.slick-slider){
+	display: flex;
+    align-items: center;
+}
