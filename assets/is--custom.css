@@ -250,4 +250,8 @@ ul.inv--linklist-main li {
 .inv--footer-bottom .inv--footer-copy svg.payment-icon {
     width: 48px;
     height: 32px;
+    margin-right: 5px;
+}
+.inv--footer-bottom .inv--footer-copy .payment_methods {
+    line-height: 0;
 }
