@@ -25,7 +25,7 @@ a{
 
 
 /* Footer Section */
-.inv--newsletter h4 {
+.inv--newsletter .inv--newsletter-head h4 {
     font-size: 40px;
     font-weight: 600;
     text-transform: capitalize;
