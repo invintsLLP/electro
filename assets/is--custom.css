@@ -80,9 +80,7 @@ input#NewsletterForm--inv--footer {
 .newsletter-form__field-wrapper .field:hover.field:after{
 	display:none;
 }
-.newsletter-form__field-wrapper .field__input:focus~.field__label{
-	top:calc(1rem + var(--inputs-border-width));
-}
 .inv--newsletter-main .inv--newsletter .inv--newsletter-form .newsletter-form__field-wrapper #NewsletterForm--inv--footer.field__input:focus~.field__label{
 	top:calc(1rem + var(--inputs-border-width));
+      font-size:16px;
 }
