@@ -122,6 +122,7 @@ div#shopify-section-inv--footer .inv--logo-section {
 }
 .inv--logo-footer {
     line-height: 0;
+    margin-bottom: 35px;
 }
 .inv--logo-contact .inv--logo-footer a {
     line-height: 0;
