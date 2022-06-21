@@ -63,25 +63,26 @@
       
 <!--Logo Section -->
       {% if block.type == 'logo' %}
-       {% if block.settings.svg_logo != blank or block.settings.logo_image != blank %}
+      {% if block.settings.svg_logo != blank or block.settings.logo_image != blank %}
       <div class="inv--logo-section">
         <div class="inv--logo-icon">
           {% if block.settings.svg_logo != blank %}
           <span>
-          	{{block.settings.svg_logo}}
+            {{block.settings.svg_logo}}
           </span>
           {% else %}
           <div class="inv--logo-image">
-           <img src="{{block.settings.logo_image | img_url:"master"}}" alt="{{block.settings.logo_image}}" class="layload">
+            <img src="{{block.settings.logo_image | img_url:"master"}}" alt="{{block.settings.logo_image}}" class="layload">
           </div>
           {% endif %}
         </div>
       </div>
-       {% endif %}
-       {% endif %}
+      {% endif %}
+      {% endif %}
       
 <!--Logo And Contact -->
       {% if block.type == 'logo-contact' %}
+       {% if block.settings.svg_logo != blank or block.settings.logo_image != blank %}
       <div class="inv--logo-contact">        
         <div class="inv--logo-contact">
           {% if block.settings.svg_logo != blank %}
@@ -95,6 +96,7 @@
           {% endif %}
         </div>
       </div>
+       {% endif %}
        {% endif %}
       
 <!--Link List Section -->
