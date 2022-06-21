@@ -445,10 +445,10 @@ div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
     padding: 0 25px;
 }
   .inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col .inv--linklist.inv--linklist--one {
-    max-width:35%;
+    max-width:25%;
 }
   .inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col .inv--linklist {
-    max-width:21.66%;
+    max-width:25%;
     margin-bottom:0;
     padding:0 10px;
 }
