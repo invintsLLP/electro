@@ -302,7 +302,7 @@
   	<div class="inv--footer-copy">
         <p class="credits">
           &copy; {{ "now" | date: "%Y" }} {{ shop.name | link_to: '/' }}.
-          {{ block.settings.copyright_text }}
+          {{ section.settings.copyright_text }}
           {% if section.settings.display_designed_by %}
             {{ 'layout.general.designer_credits_html' | t }}
           {% endif %}
