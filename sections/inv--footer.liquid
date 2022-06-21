@@ -62,7 +62,7 @@
     </div>
   </div>
   <div class="inv--footer-main" style="background: #F5F5F5; color: #777777;">
-    <div class="container">
+    
       <div class="inv--logo-section">
         {% for block in section.blocks %}
         {% if block.type == 'logo' %}
@@ -88,6 +88,7 @@
 {% for block in section.blocks %}
       {% if block.type == 'logo-contact' %}
       {% if block.settings.svg_logo != blank or block.settings.logo_image != blank %}
+    <div class="container">
       <div class="inv--logo-contact">        
         <div class="inv--logo-footer">
           {% if block.settings.svg_logo != blank %}
