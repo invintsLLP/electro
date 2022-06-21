@@ -67,6 +67,7 @@ a{
     line-height: 22px;
     color: #938b84;
     top: calc(2rem + var(--inputs-border-width));
+      letter-spacing: 0;
 }
 input#NewsletterForm--inv--footer {
     border-radius: 6px 0 0 6px;
