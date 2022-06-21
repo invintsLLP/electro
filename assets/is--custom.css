@@ -91,8 +91,8 @@ input#NewsletterForm--inv--footer {
       font-size:16px;
 }
 .inv--newsletter-main .inv--newsletter .inv--newsletter-head span.inv--newsletter-icon svg {
-    height: 100%;
-    width: 100%;
+    height: 80px;
+    width: 81px;
 }
 /* Logo Section */
 .inv--footer-main .inv--logo-image img {
@@ -264,7 +264,9 @@ ul.inv--linklist-main li {
     padding: 0 15px;
 }
 @media(min-width:1200px) and (max-width:1440px){
-	
+	.inv--newsletter .inv--newsletter-head h4 {
+    font-size: 35px;
+}
 }
 @media(min-width:992px) and (max-width:1199px){
 	
