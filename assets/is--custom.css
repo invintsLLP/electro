@@ -160,6 +160,7 @@ li.list-social__item a:hover svg path{
 .inv--social ul.footer__list-social {
     display: flex;
     align-items: center;
+    margin-top: 50px;
 }
 .inv--social ul.footer__list-social li{
 	margin-right:15px;
