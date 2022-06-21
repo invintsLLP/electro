@@ -176,3 +176,9 @@ li.list-social__item a:hover svg path{
     border-top: 1px solid rgb(177 177 177 / 30%);
     padding: 70px 0;
 }
+.inv--linklist-col .inv--linklist h4 {
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #0C0704;
+}
