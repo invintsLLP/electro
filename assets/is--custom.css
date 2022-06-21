@@ -151,3 +151,9 @@ ul.inv--contact li a:hover{
 	height:18px;
   	width:18px;
 }
+li.list-social__item:hover a {
+    background: #20488A;
+}
+li.list-social__item:hover svg path{
+	fill:#ffffff;
+}
