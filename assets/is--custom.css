@@ -308,7 +308,39 @@ ul.inv--linklist-main li {
   }
 }
 @media(min-width:992px) and (max-width:1199px){
-	
+	  .inv--newsletter .inv--newsletter-head h4 {
+    font-size: 35px;
+  }
+  .inv--newsletter-main .inv--newsletter .inv--newsletter-head span.inv--newsletter-icon svg {
+    height: 60px;
+    width: 61px;
+  }
+  div#shopify-section-inv--footer .inv--logo-section {
+    padding: 65px 0;
+  }
+  .inv--footer-copy-payment p {
+    font-size: 16px;
+  }
+  .inv--newsletter-main .inv--newsletter {
+    padding: 35px 25px;
+  }
+  .inv--social ul.footer__list-social {
+    margin-top: 40px;
+  }
+  .inv--social ul li a{
+    height: 36px;
+    width: 36px;
+  }
+  .inv--social ul li a svg {
+    height: 15px;
+    width: 15px;
+  }
+  .inv--conatct-linklist-inner{
+  	padding:60px 0;
+  }
+  .inv--linklist-col .inv--linklist h4{
+  	font-size:14px;
+  }
 }
 @media(min-width:768px) and (max-width:991px){
 	
