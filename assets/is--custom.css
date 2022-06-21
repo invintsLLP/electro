@@ -351,6 +351,10 @@ ul.inv--linklist-main li {
   .inv--contact-main ul li {
     margin-bottom: 13px;
 }
+  .inv--newsletter-main .inv--newsletter .inv--newsletter-form .newsletter-form__button {
+    font-size: 16px;
+    padding: 0 30px;
+}
 }
 @media(min-width:768px) and (max-width:991px){
 	
