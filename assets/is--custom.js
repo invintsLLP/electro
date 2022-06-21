@@ -2,7 +2,7 @@ $(document).ready(function() {
   setTimeout(function() {
     $('.inv--footer-main .inv--logo-section').slick({
       dots: false,
-      infinite: false,
+      infinite: true,
       speed: 300,
       slidesToShow: 6,
       slidesToScroll: 6,
