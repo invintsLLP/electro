@@ -261,6 +261,7 @@
       "payment": "Payment methods"
     },
     "featured_blog": {
+      "read_more": "Read More",
       "view_all": "View all",
       "onboarding_title": "Blog post",
       "onboarding_content": "Give your customers a summary of your blog post"

@@ -34,6 +34,19 @@
             </p>
             {%endif%}
           </div>
+          {% if article.title %}
+          <h3 class="inv-article-title">
+            <a href="{{ article.url }}">{{ article.title }}</a>
+          </h3>
+          {%endif%}
+          {% if article.content %}
+          <div class="inv-article-desc">
+            {{ article.content | strip_html | truncate : 100 }}
+          </div>
+          {%endif%}
+          <div class="inv-article-read">
+            <a href="{{ article.url }}" class="article-readmore"> {{ 'sections.featured_blog.read_more' | t }}</a>
+          </div>
         </div>
       </div>
       {%endfor%}
@@ -42,60 +55,6 @@
   </div>
 </section>
 
-
-
-
-
-
-
-
-
-
-
-
-<div class="custom-blog pt-120 pb-120">
-  {% assign blog_widget_select = section.settings.blog_widget_select %}
-  <div class="container">
-    <div class="sec-heading center-heading">
-      <h2>{{ section.settings.heading }}</h2>
-    </div>
-    <div class="blog-wrapper">
-      {% for article in blogs[blog_widget_select].articles limit: home_page_articles %}
-      <div class="article-blog">
-        <div class="blog-img">
-          {% if article.image %}
-          <a href="{{ article.url }}">
-            <img class="lazyload" data-src="{{ article.image | img_url: "master" }}" alt />
-          </a>
-          {% endif %}
-          <p class="blog_meta">
-            <span>{{ article.created_at | date: format: 'abbreviated_date' }}</span>
-          </p>
-        </div>
-        <div class="blog-info"> 
-          <h3 class="sub_title"><a href="{{ article.url }}">{{ article.title }}</a></h3>
-          <div class="blog-desc">{{ article.content | strip_html | truncate : 100 }}</div>
-          <a href="{{ article.url }}" class="action_button">Read more</a>
-        </div>
-      </div>    
-      {% endfor %}
-    </div>
-    <div class="slick-navigation">
-      <ul>
-        <li class="blog__prev">    
-          <svg width="36" height="15" viewBox="0 0 36 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M3.828 6.53574H36V8.46426H3.828L9.192 13.6365L7.778 15L0 7.5L7.778 0L9.192 1.36346L3.828 6.53574Z" fill="#EA2839"/>
-          </svg>
-        </li>
-        <li class="blog__next">
-          <svg width="37" height="16" viewBox="0 0 37 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M32.7238 7.42544H0.551758V9.34849H32.7238L27.3598 14.5061L28.7738 15.8657L36.5518 8.38696L28.7738 0.908203L27.3598 2.2678L32.7238 7.42544Z" fill="#EA2839"/>
-          </svg>
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
 {% schema %}
 {
 "name": "Blog Section",
