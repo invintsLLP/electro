@@ -216,6 +216,9 @@ ul.inv--linklist-main li {
     column-count: 2;
 }
 .inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col .inv--linklist {
-    max-width: 18.125%;
+    max-width:12.5%;
     width: 100%;
+}
+.inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col .inv--linklist.inv--linklist--one {
+    max-width: 35%;
 }
