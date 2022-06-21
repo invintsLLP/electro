@@ -103,3 +103,7 @@ input#NewsletterForm--inv--footer {
 div#shopify-section-inv--footer .inv--logo-section {
     padding: 85px 0;
 }
+.inv--contact-main ul li {
+    display: flex;
+    align-items: center;
+}
