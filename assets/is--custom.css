@@ -57,9 +57,9 @@ a{
   padding: 0 52px;
   line-height:0;
 }
-.inv--newsletter-main .inv--newsletter .inv--newsletter-form .newsletter-form__button:hover{
-	background:rgb(32 72 138 / 80%);
-  color: #FFE472;
+.inv--newsletter-main .inv--newsletter .inv--newsletter-form .newsletter-form__button:hover {
+    background: #fff;
+    color: #20488a;
 }
 .inv--newsletter-main .inv--newsletter .inv--newsletter-form label.field__label {
     font-size: 18px;
