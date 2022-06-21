@@ -138,6 +138,30 @@
                 </a>
               </li>
             {%- endif -%}
+              {%- if settings.social_instagram_link != blank -%}
+              <li class="list-social__item">
+                <a href="{{ settings.social_instagram_link }}" class="link list-social__link" >
+                  {%- render 'icon-instagram' -%}
+                  <span class="visually-hidden">{{ 'general.social.links.instagram' | t }}</span>
+                </a>
+              </li>
+            {%- endif -%}
+               {%- if settings.social_linkedin_link != blank -%}
+              <li class="list-social__item">
+                <a href="{{ settings.social_linkedin_link }}" class="link list-social__link" >
+                  {%- render 'icon-linkedin' -%}
+                  <span class="visually-hidden">{{ 'general.social.links.linkedin' | t }}</span>
+                </a>
+              </li>
+            {%- endif -%}
+               {%- if settings.social_google_link != blank -%}
+              <li class="list-social__item">
+                <a href="{{ settings.social_google_link }}" class="link list-social__link" >
+                  {%- render 'icon-google' -%}
+                  <span class="visually-hidden">{{ 'general.social.links.google' | t }}</span>
+                </a>
+              </li>
+            {%- endif -%}
             {%- if settings.social_pinterest_link != blank -%}
               <li class="list-social__item">
                 <a href="{{ settings.social_pinterest_link }}" class="link list-social__link" >
@@ -146,14 +170,7 @@
                 </a>
               </li>
             {%- endif -%}
-            {%- if settings.social_instagram_link != blank -%}
-              <li class="list-social__item">
-                <a href="{{ settings.social_instagram_link }}" class="link list-social__link" >
-                  {%- render 'icon-instagram' -%}
-                  <span class="visually-hidden">{{ 'general.social.links.instagram' | t }}</span>
-                </a>
-              </li>
-            {%- endif -%}
+            
             {%- if settings.social_tiktok_link != blank -%}
               <li class="list-social__item">
                 <a href="{{ settings.social_tiktok_link }}" class="link list-social__link" >
@@ -194,22 +211,7 @@
                 </a>
               </li>
             {%- endif -%}
-               {%- if settings.social_linkedin_link != blank -%}
-              <li class="list-social__item">
-                <a href="{{ settings.social_linkedin_link }}" class="link list-social__link" >
-                  {%- render 'icon-linkedin' -%}
-                  <span class="visually-hidden">{{ 'general.social.links.linkedin' | t }}</span>
-                </a>
-              </li>
-            {%- endif -%}
-               {%- if settings.social_google_link != blank -%}
-              <li class="list-social__item">
-                <a href="{{ settings.social_google_link }}" class="link list-social__link" >
-                  {%- render 'icon-google' -%}
-                  <span class="visually-hidden">{{ 'general.social.links.google' | t }}</span>
-                </a>
-              </li>
-            {%- endif -%}
+              
           </ul>
         </div>
         {% endif %}
