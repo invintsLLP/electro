@@ -95,6 +95,7 @@
           </div>
           {% endif %}
         </div>
+         {% if block.settings.contact_location_icon != blank or block.settings.location_text != blank or  block.settings.contact_mail_icon != blank or block.settings.mail_text != blank or block.settings.contact_phone_icon != blank or block.settings.phone_text != blank %}
         <div class="inv--contact-main">
           <ul class="inv--contact">
             {% if block.settings.contact_location_icon != blank or block.settings.location_text != blank %}
@@ -117,6 +118,7 @@
             {% endif %}
           </ul>
         </div>
+        {% endif %}
       </div>
        {% endif %}
        {% endif %}
