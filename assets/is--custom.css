@@ -429,6 +429,7 @@ div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
   }
   .inv--contact-main ul li {
     margin-bottom: 13px;
+    justify-content: center;
   }
   .inv--newsletter-main .inv--newsletter .inv--newsletter-form .newsletter-form__button {
     font-size: 16px;
