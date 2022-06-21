@@ -182,4 +182,5 @@ li.list-social__item a:hover svg path{
     text-transform: uppercase;
     color: #0C0704;
     line-height: 1.5;
+    margin-bottom: 10px;
 }
