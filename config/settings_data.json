@@ -195,7 +195,7 @@
             "type": "newsletter",
             "settings": {
               "newsletter_enable": true,
-              "newsletter_heading": "Subscribe to our emails",
+              "newsletter_heading": "Sign Up For Newsletter",
               "bg_color": "#20488a",
               "text_color": "#ffffff"
             }
