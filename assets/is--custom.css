@@ -15,7 +15,10 @@ a{
   transition:all 0.3s ease 0s;
   color:#000;
 }
-
+svg{
+	height:24px;
+  	width:24px;
+}
 
 .container{
 	max-width:1630px;
