@@ -308,7 +308,7 @@ ul.inv--linklist-main li {
   }
 }
 @media(min-width:992px) and (max-width:1199px){
-	  .inv--newsletter .inv--newsletter-head h4 {
+  .inv--newsletter .inv--newsletter-head h4 {
     font-size: 35px;
   }
   .inv--newsletter-main .inv--newsletter .inv--newsletter-head span.inv--newsletter-icon svg {
@@ -340,6 +340,9 @@ ul.inv--linklist-main li {
   }
   .inv--linklist-col .inv--linklist h4{
   	font-size:14px;
+  }
+  .inv--social ul.footer__list-social li {
+    margin-right: 8px;
   }
 }
 @media(min-width:768px) and (max-width:991px){
