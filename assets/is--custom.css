@@ -57,6 +57,10 @@ a{
   padding: 0 52px;
   line-height:0;
 }
+.inv--newsletter-main .inv--newsletter .inv--newsletter-form .newsletter-form__button:hover{
+	background: #20488a;
+  color: #FFE472;
+}
 .inv--newsletter-main .inv--newsletter .inv--newsletter-form label.field__label {
     font-size: 18px;
     line-height: 22px;
