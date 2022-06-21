@@ -19,7 +19,9 @@ svg{
 	height:24px;
   	width:24px;
 }
-
+img{
+	max-width:100%;
+}
 .container{
 	max-width:1630px;
   	padding:0 15px;
@@ -257,4 +259,16 @@ ul.inv--linklist-main li {
 }
 .inv--footer-bottom .inv--footer-copy .payment_methods {
     line-height: 0;
+}
+@media(min-width:1200px) and (max-width:1440px){
+	
+}
+@media(min-width:992px) and (max-width:1199px){
+	
+}
+@media(min-width:768px) and (max-width:991px){
+	
+}
+@media(max-width:767px){
+	
 }
