@@ -56,11 +56,11 @@ a{
   color: #20488a;
   padding: 0 52px;
 }
-
 .inv--newsletter-main .inv--newsletter .inv--newsletter-form label.field__label {
     font-size: 18px;
     line-height: 22px;
-    color: #938B84;
+    color: #938b84;
+    top: calc(2rem + var(--inputs-border-width));
 }
 input#NewsletterForm--inv--footer {
     border-radius: 6px 0 0 6px;
