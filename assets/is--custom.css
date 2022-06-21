@@ -53,7 +53,6 @@ a{
     letter-spacing: 0;
     text-transform: uppercase;
     color: #20488a;
-    font-family: 'Poppins, sans-serif';
 }
 input#NewsletterForm--inv--footer:placeholder{
   font-size: 18px;
