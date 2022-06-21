@@ -222,3 +222,7 @@ ul.inv--linklist-main li {
 .inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col .inv--linklist.inv--linklist--one {
     max-width: 35%;
 }
+.inv--footer-copy-payment {
+    display: flex;
+    align-items: center;
+}
