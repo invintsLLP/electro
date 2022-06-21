@@ -100,3 +100,6 @@ input#NewsletterForm--inv--footer {
 .inv--logo-section .inv--logo-icon {
     width: 20%;
 }
+div#shopify-section-inv--footer .inv--logo-section {
+    padding: 85px 0;
+}
