@@ -55,6 +55,7 @@ a{
   text-transform: uppercase;
   color: #20488a;
   padding: 0 52px;
+  line-height:0;
 }
 .inv--newsletter-main .inv--newsletter .inv--newsletter-form label.field__label {
     font-size: 18px;
