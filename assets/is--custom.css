@@ -465,6 +465,10 @@ div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
   .inv--footer-copy-payment {
     margin-bottom: 10px;
 }
+  .inv--newsletter-main .inv--newsletter .inv--newsletter-head,
+  .inv--newsletter-main .inv--newsletter .inv--newsletter-form{
+  	width:100%;
+  }
 }
 @media(max-width:767px){
 	
