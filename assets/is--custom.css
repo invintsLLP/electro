@@ -291,6 +291,9 @@ ul.inv--linklist-main li {
     height: 15px;
     width: 15px;
   }
+  .inv--conatct-linklist-inner{
+  	padding:60px 0;
+  }
 }
 @media(min-width:992px) and (max-width:1199px){
 	
