@@ -242,3 +242,7 @@ ul.inv--linklist-main li {
 .inv--footer-copy-payment p a:hover {
     color: #000;
 }
+.inv--footer-bottom .inv--footer-copy {
+    border-top: 1px solid rgb(177 177 177 / 30%);
+    padding: 20px 0;
+}
