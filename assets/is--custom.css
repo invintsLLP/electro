@@ -294,6 +294,9 @@ ul.inv--linklist-main li {
   .inv--conatct-linklist-inner{
   	padding:60px 0;
   }
+  .inv--linklist-col .inv--linklist h4{
+  	font-size:14px;
+  }
 }
 @media(min-width:992px) and (max-width:1199px){
 	
