@@ -252,6 +252,9 @@ ul.inv--linklist-main li {
     height: 32px;
     margin-right: 5px;
 }
+.inv--footer-bottom .inv--footer-copy svg.payment-icon:last-child{
+	margin-right:0;
+}
 .inv--footer-bottom .inv--footer-copy .payment_methods {
     line-height: 0;
 }
