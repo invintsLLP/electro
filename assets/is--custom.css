@@ -368,6 +368,12 @@ div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
   .inv--logo-section .inv--logo-icon .inv--logo-image {
     padding: 0 25px;
 }
+  .inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col .inv--linklist.inv--linklist--one {
+    max-width: 50%;
+}
+  .inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col .inv--linklist {
+    max-width: 50%;
+}
 }
 @media(min-width:768px) and (max-width:991px){
 	
