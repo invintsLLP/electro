@@ -254,12 +254,13 @@
   <div class="inv--footer-bottom" style="background: #F5F5F5; color: #777777;">
     <div class="container">
   	<div class="inv--footer-copy">
+      <div class="inv--footer-copy-payment">
         <p class="credits">
           Copyright 
           &copy; {{ "now" | date: "%Y" }} {{ shop.name | link_to: '/' }}.
           {{ section.settings.copyright_text }}
         </p>
-
+      </div>
         {% if section.settings.display_payment_methods %}
           <div class="payment_methods">
             {% for type in shop.enabled_payment_types %}
