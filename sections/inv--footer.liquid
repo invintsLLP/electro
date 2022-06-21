@@ -121,7 +121,7 @@
               {% if block.settings.contact_phone_icon != blank or block.settings.phone_text != blank %}
               <li class="inv--contact-phone">
                 <span>{{block.settings.contact_phone_icon}}</span>
-                <h4>{{block.settings.phone_text}}</h4>
+                <h4><a href="tel:{{block.settings.phone_text}}">{{block.settings.phone_text}}</a></h4>
               </li>
               {% endif %}
             </ul>
