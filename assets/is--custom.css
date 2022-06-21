@@ -323,7 +323,7 @@ div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
     width: 50px;
   }
   div#shopify-section-inv--footer .inv--logo-section {
-    padding: 65px 0;
+    padding:45px 0;
   }
   .inv--footer-copy-payment p {
     font-size: 16px;
@@ -365,6 +365,9 @@ div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
     font-size: 16px;
     top: calc(2.3rem + var(--inputs-border-width));
   }
+  .inv--logo-section .inv--logo-icon .inv--logo-image {
+    padding: 0 25px;
+}
 }
 @media(min-width:768px) and (max-width:991px){
 	
