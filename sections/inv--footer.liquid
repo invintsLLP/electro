@@ -64,7 +64,15 @@
 <!--Logo Section -->
       {% if block.type == 'logo' %}
       <div class="inv--logo-section">
-		
+        <div class="inv--logo-icon">
+          {% if block.settings.svg_logo != blank %}
+          <span>
+          	{{block.settings.svg_logo}}
+          </span>
+          {% else %}
+           <img src="{{section.settings.banner_img | img_url:"master"}}" id="img_cover">
+          {% endif %}
+        </div>
       </div>
        {% endif %}
       
