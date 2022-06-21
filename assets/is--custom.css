@@ -381,6 +381,9 @@ div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
   .inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--logo-contact {
     max-width: 33.33%;
 }
+  .inv--footer-bottom .inv--footer-copy {
+    padding: 16px 0;
+}
 }
 @media(min-width:768px) and (max-width:991px){
 	
