@@ -1260,7 +1260,7 @@ button.shopify-payment-button__button--unbranded,
   --shadow-blur-radius: var(--buttons-shadow-blur-radius);
   --shadow-opacity: var(--buttons-shadow-opacity);
   --shadow-visible: var(--buttons-shadow-visible);
-  --border-offset: var(--buttons-border-offset); /* reduce radius edge artifacts */
+  --border-offset:0; /* reduce radius edge artifacts */
   --border-opacity: calc(1 - 1);
   border-radius: 5px;
   position: relative;
