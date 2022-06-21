@@ -234,3 +234,11 @@ ul.inv--linklist-main li {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+.inv--footer-copy-payment p {
+    font-size: 18px;
+    color: #777777;
+    letter-spacing: 0;
+}
+.inv--footer-copy-payment p a:hover {
+    color: #000;
+}
