@@ -64,3 +64,6 @@ input#NewsletterForm--inv--footer:placeholder{
     line-height: 22px;
     color: #938B84;
 }
+input#NewsletterForm--inv--footer {
+    border-radius: 6px 0 0 6px;
+}
