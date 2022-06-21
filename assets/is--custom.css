@@ -193,3 +193,6 @@ ul.inv--linklist-main li {
     text-transform: capitalize;
     color: #777777;
 }
+.inv--linklist-col .inv--linklist ul.inv--linklist-main li a:hover{
+	color:#000000;
+}
