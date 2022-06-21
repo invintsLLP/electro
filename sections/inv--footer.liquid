@@ -1,5 +1,5 @@
 <footer>  
-  <div class="inv--newsletter-main" style="background:{{block.settings.bg_color}}; color:{{block.settings.text_color}};">
+  <div class="inv--newsletter-main" {% for block in section.blocks %} style="background:{{block.settings.bg_color}}; color:{{block.settings.text_color}};"{% endfor %}>
     <div class="container">
       {% for block in section.blocks %}      
       {% if block.type == 'newsletter' %}
