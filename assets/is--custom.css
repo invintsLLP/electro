@@ -328,8 +328,8 @@ ul.inv--linklist-main li {
     margin-top: 40px;
   }
   .inv--social ul li a{
-    height: 36px;
-    width: 36px;
+    height: 30px;
+    width: 30px;
   }
   .inv--social ul li a svg {
     height: 15px;
@@ -344,6 +344,9 @@ ul.inv--linklist-main li {
   .inv--social ul.footer__list-social li {
     margin-right: 8px;
   }
+  .inv--contact-main ul li {
+    margin-bottom: 13px;
+}
 }
 @media(min-width:768px) and (max-width:991px){
 	
