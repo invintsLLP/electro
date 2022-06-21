@@ -195,7 +195,9 @@
             "type": "newsletter",
             "settings": {
               "newsletter_enable": true,
-              "newsletter_heading": "Subscribe to our emails"
+              "newsletter_heading": "Subscribe to our emails",
+              "bg_color": "#20488a",
+              "text_color": "#ffffff"
             }
           },
           "18a85064-055b-48fc-8a1c-56ee7c42c0f0": {
