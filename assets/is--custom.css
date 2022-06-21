@@ -408,7 +408,7 @@ div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
     padding:25px 10px;
   }
   .inv--social ul.footer__list-social {
-    margin-top: 40px;
+    margin-top: 20px;
   }
   .inv--social ul li a{
     height: 30px;
@@ -455,8 +455,9 @@ div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
     width: 60%;
 }
   .inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--logo-contact {
-    max-width:40%;
-    padding-right:20px;
+    max-width:100%;
+    padding-right:0;
+    margin-bottom:20px;
 }
   .inv--footer-bottom .inv--footer-copy {
     padding: 12px 0;
