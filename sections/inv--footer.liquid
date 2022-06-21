@@ -85,147 +85,148 @@
         {% endfor %}
       </div>
     <div class="inv--conatct-linklist">
-       <div class="container">
-{% for block in section.blocks %}
-      {% if block.type == 'logo-contact' %}
-      {% if block.settings.svg_logo != blank or block.settings.logo_image != blank %}
-   
-      <div class="inv--logo-contact">        
-        <div class="inv--logo-footer">
-          {% if block.settings.svg_logo != blank %}
-          <span>
-            {{block.settings.svg_logo}}
-          </span>
-          {% else %}
-          <div class="inv--logo-image">
-            <img src="{{block.settings.logo_image | img_url:"master"}}" alt="{{block.settings.logo_image}}" class="layload">
+      <div class="container">
+        {% for block in section.blocks %}
+        {% if block.type == 'logo-contact' %}
+        {% if block.settings.svg_logo != blank or block.settings.logo_image != blank %}
+
+        <div class="inv--logo-contact">        
+          <div class="inv--logo-footer">
+            {% if block.settings.svg_logo != blank %}
+            <span>
+              {{block.settings.svg_logo}}
+            </span>
+            {% else %}
+            <div class="inv--logo-image">
+              <img src="{{block.settings.logo_image | img_url:"master"}}" alt="{{block.settings.logo_image}}" class="layload">
+            </div>
+            {% endif %}
+          </div>
+          {% if block.settings.contact_location_icon != blank or block.settings.location_text != blank or  block.settings.contact_mail_icon != blank or block.settings.mail_text != blank or block.settings.contact_phone_icon != blank or block.settings.phone_text != blank %}
+          <div class="inv--contact-main">
+            <ul class="inv--contact">
+              {% if block.settings.contact_location_icon != blank or block.settings.location_text != blank %}
+              <li class="inv--contact-location">
+                <span>{{block.settings.contact_location_icon}}</span>
+                <h4>{{block.settings.location_text}}</h4>
+              </li>
+              {% endif %}
+              {% if block.settings.contact_mail_icon != blank or block.settings.mail_text != blank %}
+              <li class="inv--contact-mail">
+                <span>{{block.settings.contact_mail_icon}}</span>
+                <h4>{{block.settings.mail_text}}</h4>
+              </li>
+              {% endif %}
+              {% if block.settings.contact_phone_icon != blank or block.settings.phone_text != blank %}
+              <li class="inv--contact-phone">
+                <span>{{block.settings.contact_phone_icon}}</span>
+                <h4>{{block.settings.phone_text}}</h4>
+              </li>
+              {% endif %}
+            </ul>
+          </div>
+          {% endif %}
+          {% if block.settings.show_social %}
+          <div class="inv--social">
+            <ul class="footer__list-social list-unstyled list-social" role="list">
+              {%- if settings.social_twitter_link != blank -%}
+              <li class="list-social__item">
+                <a href="{{ settings.social_twitter_link }}" class="link list-social__link" >
+                  {%- render 'icon-twitter' -%}
+                  <span class="visually-hidden">{{ 'general.social.links.twitter' | t }}</span>
+                </a>
+              </li>
+              {%- endif -%}
+              {%- if settings.social_facebook_link != blank -%}
+              <li class="list-social__item">
+                <a href="{{ settings.social_facebook_link }}" class="link list-social__link" >
+                  {%- render 'icon-facebook' -%}
+                  <span class="visually-hidden">{{ 'general.social.links.facebook' | t }}</span>
+                </a>
+              </li>
+              {%- endif -%}
+              {%- if settings.social_instagram_link != blank -%}
+              <li class="list-social__item">
+                <a href="{{ settings.social_instagram_link }}" class="link list-social__link" >
+                  {%- render 'icon-instagram' -%}
+                  <span class="visually-hidden">{{ 'general.social.links.instagram' | t }}</span>
+                </a>
+              </li>
+              {%- endif -%}
+              {%- if settings.social_linkedin_link != blank -%}
+              <li class="list-social__item">
+                <a href="{{ settings.social_linkedin_link }}" class="link list-social__link" >
+                  {%- render 'icon-linkedin' -%}
+                  <span class="visually-hidden">{{ 'general.social.links.linkedin' | t }}</span>
+                </a>
+              </li>
+              {%- endif -%}
+              {%- if settings.social_google_link != blank -%}
+              <li class="list-social__item">
+                <a href="{{ settings.social_google_link }}" class="link list-social__link" >
+                  {%- render 'icon-google' -%}
+                  <span class="visually-hidden">{{ 'general.social.links.google' | t }}</span>
+                </a>
+              </li>
+              {%- endif -%}
+              {%- if settings.social_pinterest_link != blank -%}
+              <li class="list-social__item">
+                <a href="{{ settings.social_pinterest_link }}" class="link list-social__link" >
+                  {%- render 'icon-pinterest' -%}
+                  <span class="visually-hidden">{{ 'general.social.links.pinterest' | t }}</span>
+                </a>
+              </li>
+              {%- endif -%}
+
+              {%- if settings.social_tiktok_link != blank -%}
+              <li class="list-social__item">
+                <a href="{{ settings.social_tiktok_link }}" class="link list-social__link" >
+                  {%- render 'icon-tiktok' -%}
+                  <span class="visually-hidden">{{ 'general.social.links.tiktok' | t }}</span>
+                </a>
+              </li>
+              {%- endif -%}
+              {%- if settings.social_tumblr_link != blank -%}
+              <li class="list-social__item">
+                <a href="{{ settings.social_tumblr_link }}" class="link list-social__link" >
+                  {%- render 'icon-tumblr' -%}
+                  <span class="visually-hidden">{{ 'general.social.links.tumblr' | t }}</span>
+                </a>
+              </li>
+              {%- endif -%}
+              {%- if settings.social_snapchat_link != blank -%}
+              <li class="list-social__item">
+                <a href="{{ settings.social_snapchat_link }}" class="link list-social__link" >
+                  {%- render 'icon-snapchat' -%}
+                  <span class="visually-hidden">{{ 'general.social.links.snapchat' | t }}</span>
+                </a>
+              </li>
+              {%- endif -%}
+              {%- if settings.social_youtube_link != blank -%}
+              <li class="list-social__item">
+                <a href="{{ settings.social_youtube_link }}" class="link list-social__link" >
+                  {%- render 'icon-youtube' -%}
+                  <span class="visually-hidden">{{ 'general.social.links.youtube' | t }}</span>
+                </a>
+              </li>
+              {%- endif -%}
+              {%- if settings.social_vimeo_link != blank -%}
+              <li class="list-social__item">
+                <a href="{{ settings.social_vimeo_link }}" class="link list-social__link" >
+                  {%- render 'icon-vimeo' -%}
+                  <span class="visually-hidden">{{ 'general.social.links.vimeo' | t }}</span>
+                </a>
+              </li>
+              {%- endif -%}
+
+            </ul>
           </div>
           {% endif %}
         </div>
-        {% if block.settings.contact_location_icon != blank or block.settings.location_text != blank or  block.settings.contact_mail_icon != blank or block.settings.mail_text != blank or block.settings.contact_phone_icon != blank or block.settings.phone_text != blank %}
-        <div class="inv--contact-main">
-          <ul class="inv--contact">
-            {% if block.settings.contact_location_icon != blank or block.settings.location_text != blank %}
-            <li class="inv--contact-location">
-              <span>{{block.settings.contact_location_icon}}</span>
-              <h4>{{block.settings.location_text}}</h4>
-            </li>
-            {% endif %}
-            {% if block.settings.contact_mail_icon != blank or block.settings.mail_text != blank %}
-            <li class="inv--contact-mail">
-              <span>{{block.settings.contact_mail_icon}}</span>
-              <h4>{{block.settings.mail_text}}</h4>
-            </li>
-            {% endif %}
-            {% if block.settings.contact_phone_icon != blank or block.settings.phone_text != blank %}
-            <li class="inv--contact-phone">
-              <span>{{block.settings.contact_phone_icon}}</span>
-              <h4>{{block.settings.phone_text}}</h4>
-            </li>
-            {% endif %}
-          </ul>
-        </div>
         {% endif %}
-        {% if block.settings.show_social %}
-        <div class="inv--social">
-          <ul class="footer__list-social list-unstyled list-social" role="list">
-            {%- if settings.social_twitter_link != blank -%}
-            <li class="list-social__item">
-              <a href="{{ settings.social_twitter_link }}" class="link list-social__link" >
-                {%- render 'icon-twitter' -%}
-                <span class="visually-hidden">{{ 'general.social.links.twitter' | t }}</span>
-              </a>
-            </li>
-            {%- endif -%}
-            {%- if settings.social_facebook_link != blank -%}
-            <li class="list-social__item">
-              <a href="{{ settings.social_facebook_link }}" class="link list-social__link" >
-                {%- render 'icon-facebook' -%}
-                <span class="visually-hidden">{{ 'general.social.links.facebook' | t }}</span>
-              </a>
-            </li>
-            {%- endif -%}
-            {%- if settings.social_instagram_link != blank -%}
-            <li class="list-social__item">
-              <a href="{{ settings.social_instagram_link }}" class="link list-social__link" >
-                {%- render 'icon-instagram' -%}
-                <span class="visually-hidden">{{ 'general.social.links.instagram' | t }}</span>
-              </a>
-            </li>
-            {%- endif -%}
-            {%- if settings.social_linkedin_link != blank -%}
-            <li class="list-social__item">
-              <a href="{{ settings.social_linkedin_link }}" class="link list-social__link" >
-                {%- render 'icon-linkedin' -%}
-                <span class="visually-hidden">{{ 'general.social.links.linkedin' | t }}</span>
-              </a>
-            </li>
-            {%- endif -%}
-            {%- if settings.social_google_link != blank -%}
-            <li class="list-social__item">
-              <a href="{{ settings.social_google_link }}" class="link list-social__link" >
-                {%- render 'icon-google' -%}
-                <span class="visually-hidden">{{ 'general.social.links.google' | t }}</span>
-              </a>
-            </li>
-            {%- endif -%}
-            {%- if settings.social_pinterest_link != blank -%}
-            <li class="list-social__item">
-              <a href="{{ settings.social_pinterest_link }}" class="link list-social__link" >
-                {%- render 'icon-pinterest' -%}
-                <span class="visually-hidden">{{ 'general.social.links.pinterest' | t }}</span>
-              </a>
-            </li>
-            {%- endif -%}
-
-            {%- if settings.social_tiktok_link != blank -%}
-            <li class="list-social__item">
-              <a href="{{ settings.social_tiktok_link }}" class="link list-social__link" >
-                {%- render 'icon-tiktok' -%}
-                <span class="visually-hidden">{{ 'general.social.links.tiktok' | t }}</span>
-              </a>
-            </li>
-            {%- endif -%}
-            {%- if settings.social_tumblr_link != blank -%}
-            <li class="list-social__item">
-              <a href="{{ settings.social_tumblr_link }}" class="link list-social__link" >
-                {%- render 'icon-tumblr' -%}
-                <span class="visually-hidden">{{ 'general.social.links.tumblr' | t }}</span>
-              </a>
-            </li>
-            {%- endif -%}
-            {%- if settings.social_snapchat_link != blank -%}
-            <li class="list-social__item">
-              <a href="{{ settings.social_snapchat_link }}" class="link list-social__link" >
-                {%- render 'icon-snapchat' -%}
-                <span class="visually-hidden">{{ 'general.social.links.snapchat' | t }}</span>
-              </a>
-            </li>
-            {%- endif -%}
-            {%- if settings.social_youtube_link != blank -%}
-            <li class="list-social__item">
-              <a href="{{ settings.social_youtube_link }}" class="link list-social__link" >
-                {%- render 'icon-youtube' -%}
-                <span class="visually-hidden">{{ 'general.social.links.youtube' | t }}</span>
-              </a>
-            </li>
-            {%- endif -%}
-            {%- if settings.social_vimeo_link != blank -%}
-            <li class="list-social__item">
-              <a href="{{ settings.social_vimeo_link }}" class="link list-social__link" >
-                {%- render 'icon-vimeo' -%}
-                <span class="visually-hidden">{{ 'general.social.links.vimeo' | t }}</span>
-              </a>
-            </li>
-            {%- endif -%}
-
-          </ul>
-        </div>
         {% endif %}
-      </div>
-      {% endif %}
-      {% endif %}
-
+        {% endfor %}
+         {% for block in section.blocks %}
       {% if block.type == 'linklist' %}
       <div class="inv--linklist">
         <h4>{{ linklists[block.settings.link_list_1].title }}</h4>
