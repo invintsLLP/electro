@@ -215,3 +215,7 @@ ul.inv--linklist-main li {
 .inv--linklist.inv--linklist--one ul.inv--linklist-main {
     column-count: 2;
 }
+.inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col .inv--linklist {
+    max-width: 18.125%;
+    width: 100%;
+}
