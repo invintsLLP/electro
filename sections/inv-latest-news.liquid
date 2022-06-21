@@ -41,9 +41,9 @@
             <a href="{{ article.url }}">{{ article.title }}</a>
           </h3>
           {%endif%}
-          {% if article.content %}
+          {% if article.excerpt %}
           <div class="inv-article-desc">
-            {{ article.content | strip_html | truncate : 100 }}
+            {{ article.excerpt | strip_html | truncate : 100 }}
           </div>
           {%endif%}
           <div class="inv-article-read">
