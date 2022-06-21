@@ -115,7 +115,7 @@
               {% if block.settings.contact_mail_icon != blank or block.settings.mail_text != blank %}
               <li class="inv--contact-mail">
                 <span>{{block.settings.contact_mail_icon}}</span>
-                <h4>{{block.settings.mail_text}}</h4>
+                <h4><a href="mailto:{{block.settings.mail_text}}">{{block.settings.mail_text}}</a></h4>
               </li>
               {% endif %}
               {% if block.settings.contact_phone_icon != blank or block.settings.phone_text != blank %}
