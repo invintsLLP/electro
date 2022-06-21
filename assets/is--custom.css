@@ -65,6 +65,7 @@ a{
 input#NewsletterForm--inv--footer {
     border-radius: 6px 0 0 6px;
     max-width: 597px;
+    height: 65px;
 }
 .newsletter-form__field-wrapper .field:hover.field:after{
 	display:none;
