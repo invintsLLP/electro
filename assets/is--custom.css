@@ -226,3 +226,6 @@ ul.inv--linklist-main li {
     display: flex;
     align-items: center;
 }
+.inv--footer-copy-payment a {
+    color: #20488a;
+}
