@@ -431,6 +431,9 @@ div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
     margin-bottom: 13px;
     justify-content: center;
   }
+  .inv--social ul.footer__list-social {
+    justify-content: center;
+  }
   .inv--newsletter-main .inv--newsletter .inv--newsletter-form .newsletter-form__button {
     font-size: 16px;
     padding: 0 30px;
