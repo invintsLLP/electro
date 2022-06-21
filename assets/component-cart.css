@@ -174,7 +174,7 @@ cart-items {
 }
 
 .cart__dynamic-checkout-buttons div[role='button'] {
-  border-radius: var(--buttons-radius-outset) !important;
+  border-radius: 5px !important;
 }
 
 .cart-note__label {
