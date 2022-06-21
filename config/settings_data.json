@@ -272,6 +272,12 @@
             "settings": {
               "link_list_1": "customer-service"
             }
+          },
+          "37226e7b-d5c7-4ef1-ac43-9fb3c0a24dd8": {
+            "type": "linklist",
+            "settings": {
+              "link_list_1": "my-account"
+            }
           }
         },
         "block_order": [
@@ -285,7 +291,8 @@
           "c3a8b4dc-175e-4f78-9624-ff6d822ecf97",
           "ef5a66e5-fb63-4062-88b6-f912f84bece9",
           "10f2439d-7842-48d3-a3ff-24563ad9d277",
-          "efe6d79c-0f4c-4c02-a1a6-9e10d9216e6d"
+          "efe6d79c-0f4c-4c02-a1a6-9e10d9216e6d",
+          "37226e7b-d5c7-4ef1-ac43-9fb3c0a24dd8"
         ],
         "settings": {
           "copyright_text": "<p>All Rights Reserved.<\/p>",
