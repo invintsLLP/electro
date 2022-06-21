@@ -79,3 +79,6 @@ input#NewsletterForm--inv--footer {
 .newsletter-form__field-wrapper .field:hover.field:after{
 	display:none;
 }
+.newsletter-form__field-wrapper .field__input:focus~.field__label{
+	
+}
