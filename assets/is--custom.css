@@ -260,6 +260,9 @@ ul.inv--linklist-main li {
 .inv--footer-bottom .inv--footer-copy .payment_methods {
     line-height: 0;
 }
+.inv--logo-section .inv--logo-icon .inv--logo-image {
+    padding: 0 15px;
+}
 @media(min-width:1200px) and (max-width:1440px){
 	
 }
