@@ -247,3 +247,7 @@ ul.inv--linklist-main li {
     border-top: 1px solid rgb(177 177 177 / 30%);
     padding: 20px 0;
 }
+svg.payment-icon {
+    width: 48px;
+    height: 32px;
+}
