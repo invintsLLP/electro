@@ -22,3 +22,11 @@ a{
   	padding:0 15px;
   	margin:0 auto;
 }
+
+
+/* Footer Section */
+.inv--newsletter h4 {
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
