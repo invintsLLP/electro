@@ -274,6 +274,9 @@ ul.inv--linklist-main li {
   div#shopify-section-inv--footer .inv--logo-section {
     padding: 65px 0;
   }
+  .inv--footer-copy-payment p {
+    font-size: 16px;
+}
 }
 @media(min-width:992px) and (max-width:1199px){
 	
