@@ -2,13 +2,22 @@
   <div class="container">
     <div class="inv--footer-main">
       {% for block in section.blocks %}
+      
+<!--Newsletter Section -->
       {% if block.type == 'newsletter' %}
       <div class="inv--newsletter">
 			
       </div>
       {% endif %}
+<!--Logo Section -->
       {% if block.type == 'logo' %}
-      <div class="inv--logo">
+      <div class="inv--logo-section">
+
+      </div>
+       {% endif %}
+<!--Logo Contact -->
+      {% if block.type == 'logo-contact' %}
+      <div class="inv--logo-contact">
 
       </div>
        {% endif %}
