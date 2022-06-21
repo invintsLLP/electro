@@ -56,6 +56,7 @@ a{
   color: #20488a;
   padding: 0 52px;
   line-height:0;
+  margin-left:-1px;
 }
 .inv--newsletter-main .inv--newsletter .inv--newsletter-form .newsletter-form__button:hover {
     background: #fff;
