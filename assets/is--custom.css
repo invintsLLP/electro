@@ -207,3 +207,7 @@ ul.inv--linklist-main li {
     max-width: 27.50%;
     width: 100%;
 }
+.inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col {
+    display: flex;
+    flex-wrap: wrap;
+}
