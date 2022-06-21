@@ -199,3 +199,7 @@ ul.inv--linklist-main li {
 .inv--linklist-col .inv--linklist ul.inv--linklist-main li a:hover{
 	color:#000000;
 }
+.inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner {
+    display: flex;
+    flex-wrap: wrap;
+}
