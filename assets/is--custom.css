@@ -277,6 +277,9 @@ ul.inv--linklist-main li {
   .inv--footer-copy-payment p {
     font-size: 16px;
 }
+  .inv--newsletter-main .inv--newsletter {
+    padding: 35px 25px;
+}
 }
 @media(min-width:992px) and (max-width:1199px){
 	
