@@ -13,7 +13,7 @@
         {% if article.image %}
         <div class="blog-img">
           <a href="{{ article.url }}">
-            <img class="lazyload" data-src="{{ article.image | img_url: "master" }}" alt="article-image" />
+            <img class="lazyload" data-src="{{ article.image | img_url: "master" }}" alt="article-image" loading="lazy"/>
           </a>
         </div>
         {% endif %}
