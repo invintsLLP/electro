@@ -445,10 +445,10 @@ div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
     padding: 0 25px;
 }
   .inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col .inv--linklist.inv--linklist--one {
-    max-width: 50%;
+    max-width:100%;
 }
   .inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col .inv--linklist {
-    max-width: 50%;
+    max-width:100%;
     margin-bottom:30px;
 }
   .inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col {
