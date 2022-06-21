@@ -144,3 +144,7 @@ ul.inv--contact li a:hover{
     justify-content: center;
     border-radius: 50%;
 }
+.inv--social ul li a svg{
+	height:18px;
+  	width:18px;
+}
