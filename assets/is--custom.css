@@ -55,3 +55,8 @@ a{
     color: #20488a;
     font-family: Poppins, sans-serif;
 }
+input#NewsletterForm--inv--footer:placeholder{
+  font-size: 18px;
+  line-height: 22px;
+  color: #938B84;
+}
