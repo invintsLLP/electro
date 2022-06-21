@@ -33,6 +33,7 @@ a{
 .inv--newsletter-main .inv--newsletter {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .inv--newsletter-main .inv--newsletter .inv--newsletter-head {
     display: flex;
