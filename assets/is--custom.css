@@ -210,4 +210,5 @@ ul.inv--linklist-main li {
 .inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col {
     display: flex;
     flex-wrap: wrap;
+    width: 72.5%;
 }

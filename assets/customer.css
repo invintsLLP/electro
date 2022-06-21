@@ -396,7 +396,7 @@
 /* Account/Order */
 :is(.account, .order) {
   margin: 6rem auto 9rem;
-  max-width: var(--page-width);
+  max-width: 1200px;
   padding: 0 2rem;
 }
 
