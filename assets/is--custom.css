@@ -469,6 +469,10 @@ div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
   .inv--newsletter-main .inv--newsletter .inv--newsletter-form{
   	width:100%;
   }
+  .inv--newsletter-main .inv--newsletter .inv--newsletter-head{
+  	margin-bottom:20px;
+    justify-content:center;
+  }
 }
 @media(max-width:767px){
 	
