@@ -84,7 +84,7 @@
       {% if block.type == 'logo-contact' %}
        {% if block.settings.svg_logo != blank or block.settings.logo_image != blank %}
       <div class="inv--logo-contact">        
-        <div class="inv--logo-contact">
+        <div class="inv--logo-footer">
           {% if block.settings.svg_logo != blank %}
           <span>
             {{block.settings.svg_logo}}
@@ -95,6 +95,7 @@
           </div>
           {% endif %}
         </div>
+        
       </div>
        {% endif %}
        {% endif %}
