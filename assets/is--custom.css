@@ -97,3 +97,6 @@ input#NewsletterForm--inv--footer {
 	display: flex;
     align-items: center;
 }
+.inv--logo-section .inv--logo-icon {
+    width: 20%;
+}
