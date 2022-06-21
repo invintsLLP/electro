@@ -212,3 +212,6 @@ ul.inv--linklist-main li {
     flex-wrap: wrap;
     width: 72.5%;
 }
+.inv--linklist.inv--linklist--one ul.inv--linklist-main {
+    column-count: 2;
+}
