@@ -107,3 +107,8 @@ div#shopify-section-inv--footer .inv--logo-section {
     display: flex;
     align-items: center;
 }
+.inv--contact-main ul li span {
+    width: 21px;
+    height: 20px;
+    margin-right: 12px;
+}
