@@ -103,14 +103,18 @@
               <h4>{{block.settings.location_text}}</h4>
             </li>
             {% endif %}
+            {% if block.settings.contact_mail_icon != blank or block.settings.mail_text != blank %}
             <li class="inv--contact-mail">
               <span>{{block.settings.contact_mail_icon}}</span>
               <h4>{{block.settings.mail_text}}</h4>
             </li>
+            {% endif %}
+            {% if block.settings.contact_phone_icon != blank or block.settings.phone_text != blank %}
             <li class="inv--contact-phone">
               <span>{{block.settings.contact_phone_icon}}</span>
               <h4>{{block.settings.phone_text}}</h4>
             </li>
+            {% endif %}
           </ul>
         </div>
       </div>
