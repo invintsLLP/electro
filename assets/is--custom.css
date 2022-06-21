@@ -54,11 +54,7 @@ a{
     text-transform: uppercase;
     color: #20488a;
 }
-input#NewsletterForm--inv--footer:placeholder{
-  font-size: 18px;
-  line-height: 22px;
-  color: #938B84;
-}
+
 .inv--newsletter-main .inv--newsletter .inv--newsletter-form label.field__label {
     font-size: 18px;
     line-height: 22px;
