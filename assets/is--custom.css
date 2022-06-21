@@ -355,6 +355,13 @@ ul.inv--linklist-main li {
     font-size: 16px;
     padding: 0 30px;
 }
+  .inv--newsletter-main .inv--newsletter .inv--newsletter-form .newsletter-form__field-wrapper #NewsletterForm--inv--footer.field__input:focus~.field__label {
+    font-size: 14px;
+}
+  .inv--newsletter-main .inv--newsletter .inv--newsletter-form label.field__label {
+    font-size: 16px;
+    top: calc(2.3rem + var(--inputs-border-width));
+}
 }
 @media(min-width:768px) and (max-width:991px){
 	
