@@ -120,3 +120,6 @@ div#shopify-section-inv--footer .inv--logo-section {
     display: inline-block;
     line-height: 0;
 }
+.inv--logo-footer {
+    line-height: 0;
+}
