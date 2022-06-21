@@ -60,6 +60,7 @@ svg{
   padding: 0 52px;
   line-height:0;
   margin-left:-1px;
+  font-family: 'Poppins';
 }
 .inv--newsletter-main .inv--newsletter .inv--newsletter-form .newsletter-form__button:hover {
     background: #fff;
