@@ -35,6 +35,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 45px 0;
 }
 .inv--newsletter-main .inv--newsletter .inv--newsletter-head {
     display: flex;
