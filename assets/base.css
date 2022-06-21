@@ -1259,7 +1259,7 @@ button.shopify-payment-button__button--unbranded,
   --shadow-vertical-offset: var(--buttons-shadow-vertical-offset);
   --shadow-blur-radius: var(--buttons-shadow-blur-radius);
   --shadow-opacity: 0;
-  --shadow-visible: var(--buttons-shadow-visible);
+  --shadow-visible: 0;
   --border-offset:0; /* reduce radius edge artifacts */
   --border-opacity: calc(1 - 1);
   border-radius: 5px;

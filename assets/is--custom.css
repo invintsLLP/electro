@@ -451,10 +451,11 @@ div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
     margin-bottom:30px;
 }
   .inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col {
-    width: 66.66%;
+    width: 66%;
 }
   .inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--logo-contact {
-    max-width: 33.33%;
+    max-width:40%;
+    padding-right:20px;
 }
   .inv--footer-bottom .inv--footer-copy {
     padding: 16px 0;
