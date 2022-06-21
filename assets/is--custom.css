@@ -157,3 +157,13 @@ li.list-social__item a:hover{
 li.list-social__item a:hover svg path{
 	fill:#ffffff;
 }
+.inv--social ul.footer__list-social {
+    display: flex;
+    align-items: center;
+}
+.inv--social ul.footer__list-social li{
+	margin-right:15px;
+}
+.inv--social ul.footer__list-social li:last-child{
+	margin-right:0;
+}
