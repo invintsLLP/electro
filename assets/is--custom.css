@@ -310,6 +310,7 @@ ul.inv--linklist-main li {
 @media(min-width:992px) and (max-width:1199px){
   .inv--newsletter .inv--newsletter-head h4 {
     font-size: 28px;
+    margin-left: 20px;
   }
   span.inv--newsletter-icon {
     line-height: 0;
