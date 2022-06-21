@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('').slick({
+  $('.inv--logo-section').slick({
     dots: true,
     infinite: false,
     speed: 300,
