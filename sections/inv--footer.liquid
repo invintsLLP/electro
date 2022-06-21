@@ -63,10 +63,12 @@
   </div>
   <div class="inv--footer-main" style="background: #F5F5F5; color: #777777;">
     <div class="container">
+      
       {% for block in section.blocks %}
+      <div class="inv--logo-section">
       {% if block.type == 'logo' %}
       {% if block.settings.svg_logo != blank or block.settings.logo_image != blank %}
-      <div class="inv--logo-section">
+      
         <div class="inv--logo-icon">
           {% if block.settings.svg_logo != blank %}
           <span>
@@ -78,10 +80,10 @@
           </div>
           {% endif %}
         </div>
-      </div>
+      
       {% endif %}
       {% endif %}
-
+</div>
 
       {% if block.type == 'logo-contact' %}
       {% if block.settings.svg_logo != blank or block.settings.logo_image != blank %}
