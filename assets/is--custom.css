@@ -116,3 +116,7 @@ div#shopify-section-inv--footer .inv--logo-section {
     height: 20px;
     margin-right: 12px;
 }
+.inv--logo-footer span {
+    display: inline-block;
+    line-height: 0;
+}
