@@ -131,3 +131,6 @@ div#shopify-section-inv--footer .inv--logo-section {
 ul.inv--contact li a, ul.inv--contact li h4 {
     color: #777777;
 }
+ul.inv--contact li a:hover{
+	color:#000000;
+}
