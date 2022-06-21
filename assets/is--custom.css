@@ -41,6 +41,7 @@ img{
     justify-content: space-between;
     align-items: center;
     padding: 45px 75px;
+  	flex-wrap:wrap;
 }
 .inv--newsletter-main .inv--newsletter .inv--newsletter-head {
     display: flex;
@@ -401,7 +402,7 @@ div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
     padding:45px 0;
   }
   .inv--footer-copy-payment p {
-    font-size: 16px;
+    font-size: 14px;
   }
   .inv--newsletter-main .inv--newsletter {
     padding:25px 10px;
@@ -458,7 +459,11 @@ div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
     padding-right:20px;
 }
   .inv--footer-bottom .inv--footer-copy {
-    padding: 16px 0;
+    padding: 12px 0;
+    justify-content: center;
+}
+  .inv--footer-copy-payment {
+    margin-bottom: 10px;
 }
 }
 @media(max-width:767px){
