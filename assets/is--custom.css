@@ -386,7 +386,79 @@ div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
 }
 }
 @media(min-width:768px) and (max-width:991px){
-	
+	  .inv--newsletter .inv--newsletter-head h4 {
+    font-size: 28px;
+    margin-left: 20px;
+  }
+  span.inv--newsletter-icon {
+    line-height: 0;
+  }
+  .inv--newsletter-main .inv--newsletter .inv--newsletter-head span.inv--newsletter-icon svg {
+    height: 50px;
+    width: 50px;
+  }
+  div#shopify-section-inv--footer .inv--logo-section {
+    padding:45px 0;
+  }
+  .inv--footer-copy-payment p {
+    font-size: 16px;
+  }
+  .inv--newsletter-main .inv--newsletter {
+    padding:25px 10px;
+  }
+  .inv--social ul.footer__list-social {
+    margin-top: 40px;
+  }
+  .inv--social ul li a{
+    height: 30px;
+    width: 30px;
+  }
+  .inv--social ul li a svg {
+    height: 13px;
+    width: 13px;
+  }
+  .inv--conatct-linklist-inner{
+    padding:60px 0;
+  }
+  .inv--linklist-col .inv--linklist h4{
+    font-size:14px;
+  }
+  .inv--social ul.footer__list-social li {
+    margin-right: 8px;
+  }
+  .inv--contact-main ul li {
+    margin-bottom: 13px;
+  }
+  .inv--newsletter-main .inv--newsletter .inv--newsletter-form .newsletter-form__button {
+    font-size: 16px;
+    padding: 0 30px;
+  }
+  .inv--newsletter-main .inv--newsletter .inv--newsletter-form .newsletter-form__field-wrapper #NewsletterForm--inv--footer.field__input:focus~.field__label {
+    font-size: 14px;
+  }
+  .inv--newsletter-main .inv--newsletter .inv--newsletter-form label.field__label {
+    font-size: 16px;
+    top: calc(2.3rem + var(--inputs-border-width));
+  }
+  .inv--logo-section .inv--logo-icon .inv--logo-image {
+    padding: 0 25px;
+}
+  .inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col .inv--linklist.inv--linklist--one {
+    max-width: 50%;
+}
+  .inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col .inv--linklist {
+    max-width: 50%;
+    margin-bottom:30px;
+}
+  .inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col {
+    width: 66.66%;
+}
+  .inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--logo-contact {
+    max-width: 33.33%;
+}
+  .inv--footer-bottom .inv--footer-copy {
+    padding: 16px 0;
+}
 }
 @media(max-width:767px){
 	
