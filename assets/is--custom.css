@@ -128,3 +128,6 @@ div#shopify-section-inv--footer .inv--logo-section {
     line-height: 0;
     display: inline-block;
 }
+ul.inv--contact li a, ul.inv--contact li h4 {
+    color: #777777;
+}
