@@ -84,3 +84,8 @@ input#NewsletterForm--inv--footer {
 	top:calc(1rem + var(--inputs-border-width));
       font-size:16px;
 }
+
+/* Logo Section */
+.inv--footer-main .inv--logo-image img {
+    margin: 0 auto;
+}
