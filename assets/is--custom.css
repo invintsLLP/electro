@@ -106,6 +106,10 @@ div#shopify-section-inv--footer .inv--logo-section {
 .inv--contact-main ul li {
     display: flex;
     align-items: center;
+  	margin-bottom:18px;
+}
+.inv--contact-main ul li:last-child{
+	margin-bottom:0;
 }
 .inv--contact-main ul li span {
     width: 21px;
