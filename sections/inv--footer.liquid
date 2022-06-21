@@ -86,6 +86,7 @@
       </div>
     <div class="inv--conatct-linklist">
       <div class="container">
+         <div class="inv--conatct-linklist">
         {% for block in section.blocks %}
         {% if block.type == 'logo-contact' %}
         {% if block.settings.svg_logo != blank or block.settings.logo_image != blank %}
@@ -243,6 +244,7 @@
         </div>
         {% endif %}    
         {% endfor %}
+        </div>
     </div>   
     </div>
   </div>
