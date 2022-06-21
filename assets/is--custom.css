@@ -184,3 +184,12 @@ li.list-social__item a:hover svg path{
     line-height: 1.5;
     margin-bottom: 10px;
 }
+ul.inv--linklist-main li {
+    line-height: 2.2;
+}
+.inv--linklist-col .inv--linklist ul.inv--linklist-main li a {
+    font-size: 14px;
+    line-height: 2;
+    text-transform: capitalize;
+    color: #777777;
+}
