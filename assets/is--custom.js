@@ -1,6 +1,6 @@
 $(document).ready(function() {
     setTimeout(function() {
-  $('.inv--logo-section').slick({
+  $('.inv--footer-main .inv--logo-section').slick({
     dots: true,
     infinite: false,
     speed: 300,
