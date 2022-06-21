@@ -134,3 +134,13 @@ ul.inv--contact li a, ul.inv--contact li h4 {
 ul.inv--contact li a:hover{
 	color:#000000;
 }
+.inv--social ul li a {
+    line-height: 0;
+    border: 1px solid #20488A;
+    height: 42px;
+    width: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
