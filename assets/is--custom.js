@@ -36,18 +36,18 @@ $(document).ready(function() {
   
 //   Footer 767 DropDown Menu JS
   
-  $('.inv--linklist h4').click(function(){
-    if ($(window).width() <= 767) {
+//   $('.inv--linklist h4').click(function(){
+//     if ($(window).width() <= 767) {
 
-      $('.inv--linklist-col ul').hide();
-      $('.inv--linklist h4').unbind().click(function(){
-        $('.inv--linklist h4').not($(this)).removeClass('active');
-        $('.inv--linklist-col ul').not($(this).siblings('.inv--linklist-col ul')).slideUp();
-        $(this).siblings('.inv--linklist-col ul').slideToggle();
-        $(this).toggleClass('active');
-      });
+//       $('.inv--linklist-col ul').hide();
+//       $('.inv--linklist h4').unbind().click(function(){
+//         $('.inv--linklist h4').not($(this)).removeClass('active');
+//         $('.inv--linklist-col ul').not($(this).siblings('.inv--linklist-col ul')).slideUp();
+//         $(this).siblings('.inv--linklist-col ul').slideToggle();
+//         $(this).toggleClass('active');
+//       });
 
-    }
-  });
+//     }
+//   });
 
 });
