@@ -27,7 +27,7 @@
               <span>{{ article.created_at | date: format: 'abbreviated_date' }}</span>
             </div>
             {%endif%}
-
+            {%- if blog.comments_enabled? -%}
             {%- assign anchorId = '#Comments-' | append: article.id -%}
             <div class="inv-article-date meta-info">
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -36,6 +36,7 @@
               <span id="Comments-{{ article.id }}" tabindex="-1">{{ 'blogs.article.comments' | t: count: article.comments_count }}</span>
             </div>
           </div>
+          {%endif%}
           {% if article.title %}
           <h3 class="inv-article-title">
             <a href="{{ article.url }}">{{ article.title }}</a>
@@ -89,16 +90,16 @@
 {% endschema %}
 <style>
   .inno-latest-news .inv-article-main .inv-blog-img a img{
-  	border-radius:6px;
+    border-radius:6px;
   }
   .inv-article-meta-info .meta-info svg {
     fill: #777777;
-}
+  }
   .inv-article-meta-info .meta-info {
     display: flex;
     align-items: center;
-}
+  }
   .inv-article-meta-info .meta-info span {
     font-size: 14px;
-}
+  }
 </style>
