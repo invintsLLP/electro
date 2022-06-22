@@ -881,3 +881,6 @@ span.price-item,.price-item--regular {
 .card__heading {
     margin-bottom: 10px;
 }
+.card__content {
+    margin-top: 24px;
+}
