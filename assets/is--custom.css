@@ -576,10 +576,11 @@ div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
   .inv--logo-footer {
     margin-bottom: 20px;
 }
-  .inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col .inv--linklist h4 {
+.inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col .inv--linklist h4 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 0;
 }
 .inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col .inv--linklist svg {
     height: 12px;
