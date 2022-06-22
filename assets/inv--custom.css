@@ -713,4 +713,13 @@ div#shopify-section-inv--footer .inv--logo-section {
 
 
 
-
+/* Inv Full Banner */
+.inv-full-banner .inv-inner-content h4 {
+    background: #157ED2;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 3px;
+}
