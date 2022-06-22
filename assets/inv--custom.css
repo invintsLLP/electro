@@ -870,7 +870,7 @@ div#shopify-section-inv--footer .inv--logo-section {
 }
 span.price-item,.price-item--regular {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 16px !important;
     text-transform: capitalize;
     color: #20488A;
     letter-spacing: 0;
