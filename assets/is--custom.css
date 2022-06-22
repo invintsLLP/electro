@@ -79,7 +79,7 @@ img{
 input#NewsletterForm--inv--footer {
     border-radius: 6px 0 0 6px;
     max-width: 597px;
-    padding: 32px;
+    padding: 32px 20px;
 }
 input#NewsletterForm--inv--footer::placeholder{
 	font-size: 18px;
