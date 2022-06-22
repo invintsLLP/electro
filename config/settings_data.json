@@ -32,7 +32,7 @@
     "card_style": "standard",
     "card_image_padding": 0,
     "card_text_alignment": "left",
-    "card_color_scheme": "background-2",
+    "card_color_scheme": "background-1",
     "card_border_thickness": 0,
     "card_border_opacity": 10,
     "card_corner_radius": 0,
@@ -297,6 +297,25 @@
         "settings": {
           "copyright_text": "<p>All Rights Reserved.<\/p>",
           "display_payment_methods": true
+        }
+      },
+      "multicolumn": {
+        "type": "multicolumn",
+        "settings": {
+          "title": "Multicolumn",
+          "heading_size": "h1",
+          "image_width": "full",
+          "image_ratio": "adapt",
+          "columns_desktop": 3,
+          "column_alignment": "left",
+          "background_style": "primary",
+          "button_label": "Button label",
+          "button_link": "",
+          "color_scheme": "background-1",
+          "columns_mobile": "1",
+          "swipe_on_mobile": false,
+          "padding_top": 36,
+          "padding_bottom": 36
         }
       }
     },
