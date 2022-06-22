@@ -554,5 +554,7 @@ div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
     margin-bottom: 13px;
     justify-content: center;
 }
-
+.inv--social ul.footer__list-social {
+    justify-content: center;
+}
 }
