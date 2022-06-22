@@ -530,4 +530,25 @@ div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
   .inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col{
   	width:100%;
   }
+  .inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--logo-contact {
+    max-width: 100%;
+    padding-right: 0;
+    margin-bottom: 50px;
+    text-align: center;
+}
+  .inv--social ul li a svg {
+    height: 13px;
+    width: 13px;
+}
+  .inv--social ul li a {
+    height: 30px;
+    width: 30px;
+}
+  .inv--social ul.footer__list-social li {
+    margin-right: 8px;
+}
+  .inv--social ul.footer__list-social {
+    margin-top: 20px;
+}
+
 }
