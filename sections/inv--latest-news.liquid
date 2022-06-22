@@ -27,14 +27,14 @@
               <span>{{ article.created_at | date: format: 'abbreviated_date' }}</span>
             </div>
             {%endif%}
-            {%- if blog.comments_enabled? -%}
+
+            {%- assign anchorId = '#Comments-' | append: article.id -%}
             <div class="inv-article-date meta-info">
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M4.80246 14.1667H16.6666V4.16667H3.33329V15.3208L4.80246 14.1667ZM5.37913 15.8333L1.66663 18.75V3.33333C1.66663 3.11232 1.75442 2.90036 1.9107 2.74408C2.06698 2.5878 2.27895 2.5 2.49996 2.5H17.5C17.721 2.5 17.9329 2.5878 18.0892 2.74408C18.2455 2.90036 18.3333 3.11232 18.3333 3.33333V15C18.3333 15.221 18.2455 15.433 18.0892 15.5893C17.9329 15.7455 17.721 15.8333 17.5 15.8333H5.37913Z" fill="#777777"/>
               </svg>
-              <span>{{ 'blog.article.comments_count' | t: count: article.comments_count }}</span>
+              <span id="Comments-{{ article.id }}" tabindex="-1">{{ 'blog.article.comments_count' | t: count: article.comments_count }}</span>
             </div>
-            {%endif%}
           </div>
           {% if article.title %}
           <h3 class="inv-article-title">
