@@ -91,6 +91,7 @@ input#NewsletterForm--inv--footer::placeholder{
 }
 .newsletter-form__field-wrapper .field:after{
 	 border-radius: 6px 0 0 6px;
+  display:none;
 }
 .newsletter-form__field-wrapper .field:hover.field:after{
 	display:none;
