@@ -731,6 +731,7 @@ div#shopify-section-inv--footer .inv--logo-section {
     display: inline-block;
     padding: 7px 10px;
   	margin-bottom:17px;
+  	line-height:1.4;
 }
 .inv-full-banner .inv-inner-content {
     text-align: center;
