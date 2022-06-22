@@ -64,9 +64,9 @@
       {% endif %}
     </div>
   </div>
+   {%- if section.blocks.size > 0 -%}
   <div class="inv--footer-main" style="background: #F5F5F5; color: #777777;">   
-      <div class="inv--logo-section">
-        {%- if section.blocks.size > 0 -%}
+      <div class="inv--logo-section">       
         {% for block in section.blocks %}
         {% if block.type == 'logo' %}
         {% if block.settings.svg_logo != blank or block.settings.logo_image != blank %}
@@ -81,12 +81,10 @@
             <img src="{{block.settings.logo_image | img_url:"master"}}" alt="{{block.settings.logo_image}}" class="layload">
           </div>
           {% endif %}
-
         </div>
         {% endif %}
         {% endif %}
-        {% endfor %}
-        {% endif %}
+        {% endfor %}        
       </div>
     <div class="inv--conatct-linklist">
       <div class="container">
@@ -255,6 +253,7 @@
     </div>   
     </div>
   </div>
+   {% endif %}
   <div class="inv--footer-bottom" style="background: #F5F5F5; color: #777777;">
     <div class="container">
   	<div class="inv--footer-copy">
