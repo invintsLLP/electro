@@ -896,3 +896,12 @@ span.price-item,.price-item--regular {
 .card-wrapper {
     padding:15px;
 }
+.card__badge {
+    position: absolute;
+    top: 35px;
+    line-height: 0;
+}
+.card__badge span {
+    font-size: 10px;
+    padding: 5px 15px;
+}
