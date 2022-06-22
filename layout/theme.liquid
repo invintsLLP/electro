@@ -260,5 +260,22 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+    
+    <style>
+      #MainContent {
+        padding: 0 160px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+      }
+      #MainContent .layout-left-sidebar {
+        width: 20.5%;
+        padding-right: 15px;
+      }
+      #MainContent .layout-maincontent {
+        width: 79.5%;
+        padding-left: 15px;
+      }
+    </style>
   </body>
 </html>
