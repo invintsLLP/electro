@@ -123,7 +123,7 @@ img{
 .inno-footer .inv--logo-section .inv--logo-icon {
     width: 20%;
 }
-div#shopify-section-inv--footer.inno-footer .inv--logo-section {
+div#shopify-section-inv--footer .inv--logo-section {
     padding: 85px 0;
 }
 .inno-footer .inv--contact-main ul li {
@@ -286,7 +286,7 @@ div#shopify-section-inv--footer.inno-footer .inv--logo-section {
 	width:21px;
   	height:20px;
 }
-#shopify-section-inv--footer.inno-footer .inv--logo-section .slick-arrow {
+#shopify-section-inv--footer .inv--logo-section .slick-arrow {
     display: none !important;
 }
 
@@ -303,7 +303,7 @@ div#shopify-section-inv--footer.inno-footer .inv--logo-section {
     height: 60px;
     width: 61px;
   }
-  div#shopify-section-inv--footer.inno-footer .inv--logo-section {
+  div#shopify-section-inv--footer .inv--logo-section {
     padding: 65px 0;
   }
   .inno-footer .inv--footer-copy-payment p {
@@ -417,7 +417,7 @@ div#shopify-section-inv--footer.inno-footer .inv--logo-section {
     height: 50px;
     width: 50px;
   }
-  div#shopify-section-inv--footer.inno-footer .inv--logo-section {
+  div#shopify-section-inv--footer .inv--logo-section {
     padding:35px 0;
   }
   .inno-footer .inv--footer-copy-payment p {
@@ -528,7 +528,7 @@ div#shopify-section-inv--footer.inno-footer .inv--logo-section {
     font-size: 28px;
     margin-left: 20px;
 }
-  div#shopify-section-inv--footer.inno-footer .inv--logo-section {
+  div#shopify-section-inv--footer .inv--logo-section {
     padding: 35px 0;
 }
   .inno-footer .inv--conatct-linklist-inner {
