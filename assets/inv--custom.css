@@ -51,6 +51,12 @@ img{
     width: 8px;
     height: 10px;
 }
+.inv-slide-arrow .slick-arrow:hover {
+    background: #FFE472;
+}
+.inv-slide-arrow .slick-arrow:hover svg path{
+	fill: #20488A;
+}
 .inv-mar-btn-80{
 	margin-bottom:80px;
 }
