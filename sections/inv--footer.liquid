@@ -254,6 +254,7 @@
     </div>
   </div>
    {% endif %}
+  {% if section.settings.copyright_text != blank or section.settings.display_payment_methods != blank %}
   <div class="inv--footer-bottom" style="background: #F5F5F5; color: #777777;">
     <div class="container">
   	<div class="inv--footer-copy">
@@ -274,6 +275,7 @@
       </div>
     </div>
   </div>
+   {% endif %}
 </footer>
 
 {% schema %}
