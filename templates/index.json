@@ -47,9 +47,18 @@
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
+    },
+    "165587782758ef55aa": {
+      "type": "inv--latest-news",
+      "settings": {
+        "main_title": "LATEST NEWS",
+        "blog_widget_select": "news",
+        "show_date": true
+      }
     }
   },
   "order": [
-    "image_banner"
+    "image_banner",
+    "165587782758ef55aa"
   ]
 }
