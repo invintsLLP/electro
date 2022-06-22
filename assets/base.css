@@ -2733,6 +2733,7 @@ details-disclosure > details {
   display: flex;
   position: relative;
   align-items: stretch;
+  justify-content:center;
 }
 
 .ratio::before {
