@@ -727,3 +727,18 @@ div#shopify-section-inv--footer .inv--logo-section {
 .inv-inner-content {
     text-align: center;
 }
+.inv-inner-content p {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #6f9eef;
+    line-height: 1.5;
+}
+.inv-btn-notbg a {
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFE472;
+}
