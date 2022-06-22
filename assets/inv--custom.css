@@ -681,4 +681,7 @@ div#shopify-section-inv--footer .inv--logo-section {
     font-weight: 600;
     font-size: 14px;
     text-transform: uppercase;
+    border: 2px solid #0C0704;
+    border-radius: 20px;
+    padding: 5px 20px;
 }
