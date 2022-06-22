@@ -93,6 +93,9 @@ input#NewsletterForm--inv--footer::placeholder{
 	 border-radius: 6px 0 0 6px;
   display:none;
 }
+input#NewsletterForm--inv--footer:focus {
+    padding: 35px 16px;
+}
 .newsletter-form__field-wrapper .field:hover.field:after{
 	display:none;
 }
