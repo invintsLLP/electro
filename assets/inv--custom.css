@@ -758,3 +758,19 @@ div#shopify-section-inv--footer .inv--logo-section {
 .inv-full-banner .inv-main-content {
     position: relative;
 }
+.inv-full-banner .inv-main-content .inv-text-inner-image {
+    line-height: 0;
+}
+.inv-full-banner .inv-main-content .inv-inner-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    line-height: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
