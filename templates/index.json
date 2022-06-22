@@ -48,6 +48,16 @@
         "show_text_below": false
       }
     },
+    "16558879748833b6cf": {
+      "type": "inv-full-banner",
+      "settings": {
+        "bg_color": "#CCCCCC",
+        "title": "",
+        "subtitle": "",
+        "btn_text": "",
+        "btn_url": ""
+      }
+    },
     "165587782758ef55aa": {
       "type": "inv--latest-news",
       "settings": {
@@ -59,6 +69,7 @@
   },
   "order": [
     "image_banner",
+    "16558879748833b6cf",
     "165587782758ef55aa"
   ]
 }
