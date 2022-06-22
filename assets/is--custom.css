@@ -521,7 +521,8 @@ div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
     margin-bottom: 50px;
     text-align: center;
 }
-  .inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col .inv--linklist {
+  .inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col .inv--linklist,
+  .inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col .inv--linklist.inv--linklist--one{
     max-width: 100%;
     margin-bottom: 0;
     padding: 0 15px;
