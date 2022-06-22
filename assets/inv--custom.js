@@ -51,7 +51,7 @@ $(document).ready(function() {
 //   Latest Blog News
   
     setTimeout(function() {
-    $('.inv--footer-main .inv--logo-section').slick({
+    $('.inno-latest-news section.inv-latest-news div#inv-blog').slick({
       dots: false,
       infinite: true,
       speed: 300,
