@@ -81,12 +81,12 @@ input#NewsletterForm--inv--footer {
     max-width: 597px;
     height: 65px;
 }
-input#NewsletterForm--inv--footer:placeholder{
+input#NewsletterForm--inv--footer::placeholder{
 	font-size: 18px;
     color: #938b84;
   	opacity:1;
 }
-input#NewsletterForm--inv--footer label{
+.newsletter-form__field-wrapper label{
 	display:none;
 }
 .newsletter-form__field-wrapper .field:after{
