@@ -1,12 +1,23 @@
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+"name": "Featured Collection",
+"class" : "inno-featured-collection",
+"settings": [
+{
+"type": "text",
+"id": "main_title",
+"label": "Heading"
+},
+{
+"type": "collection",
+"id": "collection",
+"label": "Select Collection"
+}
+],
+"presets" : [
+{
+"name": "Featured Collection"
+}
+]
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
