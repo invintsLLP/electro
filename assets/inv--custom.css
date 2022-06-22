@@ -672,8 +672,13 @@ div#shopify-section-inv--footer .inv--logo-section {
     color: #0C0704;
     letter-spacing: 0;
 }
-..inv-article-info .inv-article-desc {
+.inv-article-info .inv-article-desc {
     font-size: 14px;
     color: #777777;
     letter-spacing: 0;
+}
+.inv-article-info .inv-article-read a {
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
 }
