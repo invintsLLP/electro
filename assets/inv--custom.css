@@ -27,7 +27,11 @@ img{
   	padding:0 15px;
   	margin:0 auto;
 }
-
+.inv-heading h2{
+  font-weight: 600;
+  font-size: 24px;
+  color: #0C0704;
+}
 
 /* Footer Section */
 .inno-footer .inv--newsletter .inv--newsletter-head h4 {
