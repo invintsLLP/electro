@@ -550,5 +550,9 @@ div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
   .inv--social ul.footer__list-social {
     margin-top: 20px;
 }
+  .inv--contact-main ul li {
+    margin-bottom: 13px;
+    justify-content: center;
+}
 
 }
