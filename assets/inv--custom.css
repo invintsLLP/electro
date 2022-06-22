@@ -31,8 +31,20 @@ img{
     font-weight: 600;
     font-size: 24px;
     color: #0c0704;
-    margin-bottom: 28px;
     line-height: 1;
+}
+.inv-heading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 28px;
+    justify-content: space-between;
+}
+.inv-slide-arrow .slick-arrow {
+    height: 30px;
+    width: 30px;
+    padding: 0;
+    border: none;
+    background: rgb(119 119 119 / 10%);
 }
 .inv-mar-btn-80{
 	margin-bottom:80px;
