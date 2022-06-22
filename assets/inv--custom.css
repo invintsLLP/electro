@@ -34,6 +34,9 @@ img{
     margin-bottom: 28px;
     line-height: 1;
 }
+.inv-mar-btn-80{
+	margin-bottom:80px;
+}
 
 /* Footer Section */
 .inno-footer .inv--newsletter .inv--newsletter-head h4 {
