@@ -80,8 +80,9 @@ img{
 	margin-bottom:30px;
 }
 .max-width-container{
-max-width: 1260px;
+max-width: 1290px;
     margin: 0 0 0 auto;
+  padding:0 15px;
 }
 /* Footer Section */
 .inno-footer .inv--newsletter .inv--newsletter-head h4 {
