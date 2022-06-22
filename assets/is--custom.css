@@ -527,4 +527,7 @@ div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
     margin-bottom: 0;
     padding: 0 15px;
 }
+  .inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col{
+  	width:100%;
+  }
 }
