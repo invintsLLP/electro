@@ -672,3 +672,8 @@ div#shopify-section-inv--footer .inv--logo-section {
     color: #0C0704;
     letter-spacing: 0;
 }
+..inv-article-info .inv-article-desc {
+    font-size: 14px;
+    color: #777777;
+    letter-spacing: 0;
+}
