@@ -9,9 +9,11 @@
       {% if section.settings.subtitle != blank %}
       <p>{{section.settings.subtitle}}</p>
       {% endif %}
+      {% if section.settings.btn_text != blank or section.settings.btn_url != blank %}
       <div class="inv-btn-notbg">
       	<a href="{{section.settings.btn_url}}">{{section.settings.btn_text}}</a>
       </div>
+      {% endif %}
     </div>
   </div>
    {% endif %}
