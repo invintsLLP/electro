@@ -721,6 +721,7 @@ div#shopify-section-inv--footer .inv--logo-section {
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+    display: inline-block;
     padding: 7px 10px;
 }
 .inv-inner-content {
