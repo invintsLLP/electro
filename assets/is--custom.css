@@ -276,6 +276,11 @@ ul.inv--linklist-main li {
 div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
     display: none !important;
 }
+@media(min-width:768px){
+	.inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col .inv--linklist{
+    	display:none;
+    }
+}
 @media(min-width:1200px) and (max-width:1440px){
   .inv--newsletter .inv--newsletter-head h4 {
     font-size: 35px;
