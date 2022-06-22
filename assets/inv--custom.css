@@ -862,3 +862,9 @@ div#shopify-section-inv--footer .inv--logo-section {
 .inno-featured-collection .card__media .media {
     position: unset;
 }
+.card__information a {
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #0C0704;
+}
