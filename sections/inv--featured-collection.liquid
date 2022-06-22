@@ -7,12 +7,7 @@
     </div>
     {%endif%}
     <div class="inv-featured-collection">
-      {% assign collection = collections[section.settings.collection] %}  
-      {% for product in collection.products %}
-      <img src="{{product.featured_image | img_url: 'medium'}}">
-      <div class="featured-title">
-      	<span class="product_title">{{product.title}}</span>
-      </div>
+     
        {% render 'card-product',
               card_product: product,
               media_aspect_ratio: section.settings.image_ratio,
@@ -22,7 +17,6 @@
               show_quick_add: section.settings.enable_quick_add,
               section_id: section.id
             %}
-      {% endfor %}
     </div>
   </div>
 </section>
