@@ -742,3 +742,11 @@ div#shopify-section-inv--footer .inv--logo-section {
     text-transform: uppercase;
     color: #FFE472;
 }
+.inv-btn-notbg {
+    display: flex;
+    align-items: center;
+}
+.inv-btn-notbg svg{
+  width: 9px;
+  height:14px;
+}
