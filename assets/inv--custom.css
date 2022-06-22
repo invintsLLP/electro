@@ -662,3 +662,13 @@ div#shopify-section-inv--footer .inv--logo-section {
   	 font-size: 14px;
   }
 }
+
+
+
+
+.inv-article-info h3.inv-article-title a {
+    font-weight: 500;
+    font-size: 16px;
+    color: #0C0704;
+    letter-spacing: 0;
+}
