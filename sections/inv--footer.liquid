@@ -241,6 +241,7 @@
          <div class="inv--linklist-col">
         {% for block in section.blocks %}
         {% if block.type == 'linklist' %}
+           {% if block.settings.link_list_1.links != blank %}
         <div class="inv--linklist inv--linklist--{% cycle 'one', 'two', 'three' ,'four' %}">
           <h4>{{ linklists[block.settings.link_list_1].title }}<svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1L4.90695 5L9 1" stroke="white" stroke-linecap="round"></path></svg></h4>
           <ul class="inv--linklist-main">
@@ -253,6 +254,7 @@
             {%- endfor -%}
           </ul>
         </div>
+            {% endif %}    
         {% endif %}    
         {% endfor %}
            </div>
