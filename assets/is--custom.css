@@ -655,10 +655,10 @@ div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
     padding: 25px 0;
 }
   input#NewsletterForm--inv--footer {
-    padding: 32px 15px;
+    padding: 25px 15px;
     font-size: 12px;
 }
   input#NewsletterForm--inv--footer::placeholder{
-  	 font-size: 12px;
+  	 font-size: 14px;
   }
 }
