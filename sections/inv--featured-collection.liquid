@@ -13,6 +13,7 @@
       <div class="featured-title">
       	<span class="product_title">{{product.title}}</span>
       </div>
+       {% render 'card-product', show_vendor: section.settings.show_vendor %}
       {% endfor %}
     </div>
   </div>
