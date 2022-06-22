@@ -1,6 +1,6 @@
 <footer>  
    
-  <div class="inv--newsletter-main" {% for block in section.blocks %} style="background:{{block.settings.bg_color}}; color:{{block.settings.text_color}};"{% endfor %}>
+  <div class="inv--newsletter-main" {% for block in section.blocks %} {%  if block.settings.bg_color != blank or block.settings.text_color != blank %}style="background:{{block.settings.bg_color}}; color:{{block.settings.text_color}};"{% endif %}{% endfor %}>
     <div class="container">
       {%- if section.blocks.size > 0 -%}
       {% for block in section.blocks %}      
