@@ -581,7 +581,8 @@ div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 0;
-      padding: 10px;
+    padding: 10px;
+    font-size: 14px;
 }
 .inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col .inv--linklist svg {
     height: 12px;
