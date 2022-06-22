@@ -774,3 +774,6 @@ div#shopify-section-inv--footer .inv--logo-section {
     flex-direction: column;
     justify-content: center;
 }
+.inv-full-banner .inv-main-content .inv-text-inner-image img {
+    border-radius: 6px;
+}
