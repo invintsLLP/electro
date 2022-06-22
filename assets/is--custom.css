@@ -278,7 +278,7 @@ div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
 }
 
 @media(min-width:768px){
-	.inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col .inv--linklist{
+	.inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col .inv--linklist svg{
     	display:none;
     }
 }
