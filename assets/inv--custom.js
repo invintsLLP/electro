@@ -50,7 +50,6 @@ $(document).ready(function() {
   
 //   Latest Blog News
   
-    setTimeout(function() {
     $('.inno-latest-news section.inv-latest-news div#inv-blog').slick({
       dots: false,
       infinite: false,
@@ -84,6 +83,5 @@ $(document).ready(function() {
         }
       ]
     });
-  }, 200);
 
 });
