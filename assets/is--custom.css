@@ -557,4 +557,11 @@ div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
 .inv--social ul.footer__list-social {
     justify-content: center;
 }
+  .inv--footer-bottom .inv--footer-copy {
+    padding: 12px 0;
+    justify-content: center;
+}
+  .inv--footer-copy-payment {
+    margin-bottom: 10px;
+}
 }
