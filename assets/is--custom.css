@@ -629,4 +629,10 @@ div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
     font-size: 14px;
     padding: 0 20px;
 }
+  .inv--newsletter-main .inv--newsletter .inv--newsletter-form .newsletter-form__field-wrapper #NewsletterForm--inv--footer.field__input:focus~.field__label {
+    font-size: 14px;
+}
+  .inv--newsletter-main .inv--newsletter .inv--newsletter-form label.field__label {
+    font-size: 16px;
+}
 }
