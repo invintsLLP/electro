@@ -572,6 +572,8 @@ div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
 }
   .inv--footer-copy-payment p {
     font-size: 14px;
+    width: 100%;
+    text-align: center;
 }
   .inv--logo-footer {
     margin-bottom: 20px;
@@ -601,7 +603,8 @@ div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
   .inv--footer-copy-payment{
   	    flex-wrap: wrap;
   }
-  .inv--footer-copy-payment p {
+.inv--footer-copy-payment p {
     width: 100%;
+    text-align: center;
 }
 }
