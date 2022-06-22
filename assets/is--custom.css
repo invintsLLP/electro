@@ -592,4 +592,10 @@ div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
 .inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col .inv--linklist h4.active svg {
     transform: rotate(180deg);
 }
+  .inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col .inv--linklist h4.active{
+  	padding: 10px;
+    background: #ffffffc2;
+    border-radius: 6px;
+    margin-bottom: 5px;
+  }
 }
