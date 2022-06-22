@@ -59,7 +59,7 @@ $(document).ready(function() {
       slidesToScroll: 4,
       appendArrows: $('.inv-slide-arrow'),
       prevArrow: '<button class="slide-arrow prev-arrow"><svg width="7" height="10" viewBox="0 0 7 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.64301 4.99988L6.00901 8.36588L5.04749 9.3274L0.719971 4.99988L5.04749 0.672363L6.00901 1.63388L2.64301 4.99988Z" fill="#777777"/></svg></button>',
-      nextArrow: '<button class="slide-arrow next-arrow"><svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.79693 5.00012L0.43093 1.63412L1.39245 0.672596L5.71997 5.00012L1.39245 9.32764L0.430931 8.36612L3.79693 5.00012Z" fill="#20488A"/></svg></button>',
+      nextArrow: '<button class="slide-arrow next-arrow"><svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.79693 5.00012L0.43093 1.63412L1.39245 0.672596L5.71997 5.00012L1.39245 9.32764L0.430931 8.36612L3.79693 5.00012Z" fill="#777777"/></svg></button>',
       responsive: [
         {
           breakpoint: 1024,
