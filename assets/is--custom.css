@@ -288,6 +288,9 @@ div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
 .inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col .inv--linklist svg path{
 	    stroke: #000000;
 }
+.inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col .inv--linklist h4.active svg {
+    transform: rotate(180deg);
+}
 @media(min-width:768px){
 	.inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col .inv--linklist{
     	display:none;
