@@ -889,3 +889,6 @@ span.price-item,.price-item--regular {
     border-radius: 6px;
     padding: 20px;
 }
+.card-wrapper {
+    padding: 0 15px;
+}
