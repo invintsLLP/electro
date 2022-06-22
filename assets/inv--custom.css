@@ -55,6 +55,12 @@ img{
       border-radius: 30px;
   margin:0 5px;
 }
+.inv-slide-arrow .slick-arrow.prev-arrow {
+    margin-left: 0;
+}
+.inv-slide-arrow .slick-arrow.next-arrow {
+    margin-right: 0;
+}
 .inv-slide-arrow .slick-arrow svg {
     width: 8px;
     height: 10px;
