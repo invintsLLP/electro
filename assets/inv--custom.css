@@ -868,3 +868,10 @@ div#shopify-section-inv--footer .inv--logo-section {
     text-transform: capitalize;
     color: #0C0704;
 }
+span.price-item {
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #20488A;
+    letter-spacing: 0;
+}
