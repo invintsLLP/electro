@@ -51,7 +51,7 @@
     "165587782758ef55aa": {
       "type": "inv--latest-news",
       "settings": {
-        "main_title": "LATEST NEWS",
+        "main_title": "Latest News",
         "blog_widget_select": "news",
         "show_date": true
       }
