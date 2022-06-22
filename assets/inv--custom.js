@@ -57,7 +57,7 @@ $(document).ready(function() {
       speed: 300,
       slidesToShow: 4,
       slidesToScroll: 4,
-      prevArrow: '<button class="slide-arrow prev-arrow"></button>',
+      prevArrow: '<button class="slide-arrow prev-arrow"><svg width="7" height="10" viewBox="0 0 7 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.64301 4.99988L6.00901 8.36588L5.04749 9.3274L0.719971 4.99988L5.04749 0.672363L6.00901 1.63388L2.64301 4.99988Z" fill="#777777"/></svg></button>',
       nextArrow: '<button class="slide-arrow next-arrow"></button>',
       responsive: [
         {
