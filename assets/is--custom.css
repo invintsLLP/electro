@@ -638,4 +638,7 @@ div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
   .inv--newsletter-main .inv--newsletter {
     padding: 25px 0px;
 }
+  div#shopify-section-inv--footer .inv--logo-section {
+    padding: 25px 0;
+}
 }
