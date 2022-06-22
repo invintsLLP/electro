@@ -755,3 +755,6 @@ div#shopify-section-inv--footer .inv--logo-section {
     height: 14px;
     margin-left: 7px;
 }
+.inv-full-banner .inv-main-content {
+    position: relative;
+}
