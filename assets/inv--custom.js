@@ -53,7 +53,7 @@ $(document).ready(function() {
     setTimeout(function() {
     $('.inno-latest-news section.inv-latest-news div#inv-blog').slick({
       dots: false,
-      infinite: true,
+      infinite: false,
       speed: 300,
       slidesToShow: 4,
       slidesToScroll: 4,
