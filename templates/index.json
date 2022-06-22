@@ -48,6 +48,13 @@
         "show_text_below": false
       }
     },
+    "16558943427012cd71": {
+      "type": "inv--featured-collection",
+      "settings": {
+        "main_title": "Latest Collection",
+        "collection": "latest"
+      }
+    },
     "16558879748833b6cf": {
       "type": "inv-full-banner",
       "settings": {
@@ -66,19 +73,12 @@
         "blog_widget_select": "news",
         "show_date": true
       }
-    },
-    "16558943427012cd71": {
-      "type": "inv--featured-collection",
-      "settings": {
-        "main_title": "Latest Collection",
-        "collection": "latest"
-      }
     }
   },
   "order": [
     "image_banner",
+    "16558943427012cd71",
     "16558879748833b6cf",
-    "165587782758ef55aa",
-    "16558943427012cd71"
+    "165587782758ef55aa"
   ]
 }
