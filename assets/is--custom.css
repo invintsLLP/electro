@@ -98,6 +98,7 @@ input#NewsletterForm--inv--footer::placeholder{
 .inv--newsletter-main .inv--newsletter .inv--newsletter-form .newsletter-form__field-wrapper #NewsletterForm--inv--footer.field__input:focus~.field__label{
 	top:calc(1rem + var(--inputs-border-width));
       font-size:16px;
+     display:none;
 }
 .inv--newsletter-main .inv--newsletter .inv--newsletter-head span.inv--newsletter-icon svg {
     height: 80px;
