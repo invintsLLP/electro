@@ -725,10 +725,10 @@ div#shopify-section-inv--footer .inv--logo-section {
     padding: 7px 10px;
   	margin-bottom:17px;
 }
-.inv-inner-content {
+.inv-full-banner .inv-inner-content {
     text-align: center;
 }
-.inv-inner-content p {
+.inv-full-banner .inv-inner-content p {
     font-weight: 500;
     font-size: 20px;
     text-align: center;
@@ -737,7 +737,7 @@ div#shopify-section-inv--footer .inv--logo-section {
     line-height: 1.5;
     margin-bottom: 18px;
 }
-.inv-btn-notbg a {
+.inv-full-banner .inv-btn-notbg a {
     font-weight: 600;
     font-size: 18px;
     text-align: center;
@@ -745,12 +745,12 @@ div#shopify-section-inv--footer .inv--logo-section {
     color: #ffe472;
     line-height: 1;
 }
-.inv-btn-notbg {
+.inv-full-banner .inv-btn-notbg {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.inv-btn-notbg svg {
+.inv-full-banner .inv-btn-notbg svg {
     width: 9px;
     height: 14px;
     margin-left: 7px;
