@@ -4,8 +4,8 @@
    {% if section.settings.title != blank or section.settings.description != blank %}
   <div class="inv-main-content"> 
     <div class="text-inner-image">
-        {% if block.settings.image != blank %}
-        <img src="{{block.settings.image | img_url:'master'}}">
+        {% if section.settings.image != blank %}
+        <img src="{{section.settings.image | img_url:'master'}}">
         {% endif %}
       </div>
     <div class="inv-inner-content">
