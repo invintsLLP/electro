@@ -331,50 +331,50 @@ div#shopify-section-inv--footer.inno-footer .inv--logo-section {
   }
 }
 @media(min-width:992px) and (max-width:1199px){
-  .inv--newsletter .inv--newsletter-head h4 {
+  .inno-footer .inv--newsletter .inv--newsletter-head h4 {
     font-size: 28px;
     margin-left: 20px;
   }
-  span.inv--newsletter-icon {
+  .inno-footer span.inv--newsletter-icon {
     line-height: 0;
   }
-  .inv--newsletter-main .inv--newsletter .inv--newsletter-head span.inv--newsletter-icon svg {
+  .inno-footer .inv--newsletter-main .inv--newsletter .inv--newsletter-head span.inv--newsletter-icon svg {
     height: 50px;
     width: 50px;
   }
-  div#shopify-section-inv--footer .inv--logo-section {
+  div#shopify-section-inv--footer.inno-footer .inv--logo-section {
     padding:45px 0;
   }
-  .inv--footer-copy-payment p {
+  .inno-footer .inv--footer-copy-payment p {
     font-size: 16px;
   }
-  .inv--newsletter-main .inv--newsletter {
+  .inno-footer .inv--newsletter-main .inv--newsletter {
     padding:25px 10px;
   }
-  .inv--social ul.footer__list-social {
+  .inno-footer .inv--social ul.footer__list-social {
     margin-top: 40px;
   }
-  .inv--social ul li a{
+  .inno-footer .inv--social ul li a{
     height: 30px;
     width: 30px;
   }
-  .inv--social ul li a svg {
+  .inno-footer .inv--social ul li a svg {
     height: 13px;
     width: 13px;
   }
-  .inv--conatct-linklist-inner{
+  .inno-footer .inv--conatct-linklist-inner{
     padding:60px 0;
   }
-  .inv--linklist-col .inv--linklist h4{
+  .inno-footer .inv--linklist-col .inv--linklist h4{
     font-size:14px;
   }
-  .inv--social ul.footer__list-social li {
+  .inno-footer .inv--social ul.footer__list-social li {
     margin-right: 8px;
   }
-  .inv--contact-main ul li {
+  .inno-footer .inv--contact-main ul li {
     margin-bottom: 13px;
   }
-  .inv--newsletter-main .inv--newsletter .inv--newsletter-form .newsletter-form__button {
+  .inno-footer .inv--newsletter-main .inv--newsletter .inv--newsletter-form .newsletter-form__button {
     font-size: 16px;
     padding: 0 30px;
   }
