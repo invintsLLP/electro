@@ -281,6 +281,13 @@ div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
     align-items: center;
     justify-content: space-between;
 }
+.inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col .inv--linklist svg {
+    height: 16px;
+    width: 16px;
+}
+.inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col .inv--linklist svg path{
+	    stroke: #000000;
+}
 @media(min-width:768px){
 	.inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col .inv--linklist{
     	display:none;
