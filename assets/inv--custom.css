@@ -746,6 +746,7 @@ div#shopify-section-inv--footer .inv--logo-section {
 .inv-btn-notbg {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .inv-btn-notbg svg {
     width: 9px;
