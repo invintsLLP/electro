@@ -112,16 +112,16 @@
             <ul class="inv--contact">
               {% if block.settings.contact_location_icon != blank or block.settings.location_text != blank %}
               <li class="inv--contact-location">
-                <span>{{block.settings.contact_location_icon}}</span>
+                {% if block.settings.contact_location_icon != blank %}<span>{{block.settings.contact_location_icon}}</span>{% endif %}
                 <span class="visually-hidden">Location</span>
-                <h4>{{block.settings.location_text}}</h4>
+                {% if block.settings.location_text != blank %}<h4>{{block.settings.location_text}}</h4>{% endif %}
               </li>
               {% endif %}
               {% if block.settings.contact_mail_icon != blank or block.settings.mail_text != blank %}
               <li class="inv--contact-mail">
-                <span>{{block.settings.contact_mail_icon}}</span>
+               {% if block.settings.contact_mail_icon != blank %} <span>{{block.settings.contact_mail_icon}}</span> {% endif %}
                 <span class="visually-hidden">Contact</span>
-                <h4><a href="mailto:{{block.settings.mail_text}}">{{block.settings.mail_text}}</a></h4>
+               {% if block.settings.mail_text != blank %} <h4><a href="mailto:{{block.settings.mail_text}}">{{block.settings.mail_text}}</a></h4>{% endif %}
               </li>
               {% endif %}
               {% if block.settings.contact_phone_icon != blank or block.settings.phone_text != blank %}
