@@ -6,8 +6,11 @@
       <div class="inv-slide-arrow inv-slide-arrow-collection"></div>
     </div>
     {%endif%}
-    <div class="">
-    	
+    <div class="inv-featured-collection">
+      {% assign collection = collections[section.settings.collection] %}  
+      {% for product in collection.products %}
+      <img src="{{product.featured_image | img_url: 'medium'}}">
+      {% endfor %}
     </div>
   </div>
 </section>
