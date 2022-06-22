@@ -884,3 +884,8 @@ span.price-item,.price-item--regular {
 .card__content {
     margin-top: 24px;
 }
+.card-wrapper div.card {
+    border: 1px solid #F1F1F1;
+    border-radius: 6px;
+    padding: 20px;
+}
