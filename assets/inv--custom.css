@@ -875,3 +875,6 @@ span.price-item {
     color: #20488A;
     letter-spacing: 0;
 }
+.price-item--regular {
+    color: #838282;
+}
