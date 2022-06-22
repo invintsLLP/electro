@@ -859,6 +859,6 @@ div#shopify-section-inv--footer .inv--logo-section {
 
 /* Inv Featured Collection */
 
-.card__media .media {
+.inno-featured-collection .card__media .media {
     position: unset;
 }
