@@ -45,6 +45,11 @@ img{
     padding: 0;
     border: none;
     background: rgb(119 119 119 / 10%);
+      border-radius: 30px;
+}
+.inv-slide-arrow .slick-arrow svg {
+    width: 8px;
+    height: 10px;
 }
 .inv-mar-btn-80{
 	margin-bottom:80px;
