@@ -666,18 +666,18 @@ div#shopify-section-inv--footer .inv--logo-section {
 
 
 
-.inv-article-info h3.inv-article-title a {
+.inno-latest-news .inv-article-info h3.inv-article-title a {
     font-weight: 500;
     font-size: 16px;
     color: #0C0704;
     letter-spacing: 0;
 }
-.inv-article-info .inv-article-desc {
+.inno-latest-news .inv-article-info .inv-article-desc {
     font-size: 14px;
     color: #777777;
     letter-spacing: 0;
 }
-.inv-article-info .inv-article-read a {
+.inno-latest-news .inv-article-info .inv-article-read a {
     font-weight: 600;
     font-size: 14px;
     text-transform: uppercase;
