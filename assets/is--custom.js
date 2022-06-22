@@ -38,7 +38,6 @@ $(document).ready(function() {
   
   $('.inv--linklist h4').click(function(){
     if ($(window).width() <= 767) {
-
       $('.inv--linklist-col ul').hide();
       $('.inv--linklist h4').unbind().click(function(){
         $('.inv--linklist h4').not($(this)).removeClass('active');
@@ -46,7 +45,6 @@ $(document).ready(function() {
         $(this).siblings('.inv--linklist-col ul').slideToggle();
         $(this).toggleClass('active');
       });
-
     }
   });
 
