@@ -607,4 +607,26 @@ div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
     width: 100%;
     text-align: center;
 }
+  .inv--footer-bottom .inv--footer-copy svg.payment-icon {
+    width: 40px;
+    height: 24px;
+    margin-right: 0;
+}
+}
+@media(max-width:575px){
+	.inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--logo-contact {
+    margin-bottom: 30px;
+}
+  .inv--newsletter-main .inv--newsletter .inv--newsletter-head span.inv--newsletter-icon svg {
+    height: 35px;
+    width: 35px;
+}
+  .inv--newsletter .inv--newsletter-head h4 {
+    font-size: 20px;
+    margin-left: 12px;
+}
+  .inv--newsletter-main .inv--newsletter .inv--newsletter-form .newsletter-form__button {
+    font-size: 14px;
+    padding: 0 20px;
+}
 }
