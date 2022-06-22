@@ -740,7 +740,8 @@ div#shopify-section-inv--footer .inv--logo-section {
     font-size: 18px;
     text-align: center;
     text-transform: uppercase;
-    color: #FFE472;
+    color: #ffe472;
+    line-height: 1;
 }
 .inv-btn-notbg {
     display: flex;
