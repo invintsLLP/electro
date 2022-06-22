@@ -43,7 +43,7 @@ img{
 .inv-heading {
     display: flex;
     align-items: center;
-    margin-bottom: 28px;
+    margin-bottom: 20px;
     justify-content: space-between;
 }
 .inv-slide-arrow .slick-arrow {
