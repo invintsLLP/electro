@@ -593,5 +593,7 @@ div#shopify-section-inv--footer .inv--logo-section .slick-arrow {
 .inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col .inv--linklist h4.active svg {
     transform: rotate(180deg);
 }
-
+.inv--footer-main .inv--conatct-linklist .inv--conatct-linklist-inner .inv--linklist-col .inv--linklist ul.inv--linklist-main {
+    padding: 0 10px 10px 10px;
+}
 }
