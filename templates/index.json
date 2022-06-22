@@ -51,11 +51,12 @@
     "16558879748833b6cf": {
       "type": "inv-full-banner",
       "settings": {
-        "bg_color": "#CCCCCC",
-        "title": "",
-        "subtitle": "",
-        "btn_text": "",
-        "btn_url": ""
+        "image": "shopify:\/\/shop_images\/horizontal-banner-2.png",
+        "bg_color": "#000000",
+        "title": "tablets  & speakers",
+        "subtitle": "The bass sound of speaker, and the high speed of a tablet.",
+        "btn_text": "Shop Now",
+        "btn_url": "shopify:\/\/collections"
       }
     },
     "165587782758ef55aa": {
