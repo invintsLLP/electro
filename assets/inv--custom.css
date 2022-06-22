@@ -866,7 +866,11 @@ div#shopify-section-inv--footer .inv--logo-section {
     font-weight: 400;
     font-size: 16px;
     text-transform: capitalize;
-    color: #0C0704;
+    color: #0c0704;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 }
 span.price-item,.price-item--regular {
     font-weight: 500;
