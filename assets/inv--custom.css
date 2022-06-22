@@ -27,10 +27,12 @@ img{
   	padding:0 15px;
   	margin:0 auto;
 }
-.inv-heading h2{
-  font-weight: 600;
-  font-size: 24px;
-  color: #0C0704;
+.inv-heading h2 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #0c0704;
+    margin-bottom: 28px;
+    line-height: 1;
 }
 
 /* Footer Section */
