@@ -27,7 +27,7 @@
               <span>{{ article.created_at | date: format: 'abbreviated_date' }}</span>
             </div>
             {%endif%}
-            {%- if blog.comments_enabled? -%}
+            {%- if article.comments_enabled? -%}
             {%- assign anchorId = '#Comments-' | append: article.id -%}
             <div class="inv-article-date meta-info">
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
