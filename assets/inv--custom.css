@@ -65,10 +65,12 @@ img{
     width: 8px;
     height: 10px;
 }
-.inv-slide-arrow .slick-arrow:hover {
+.inv-slide-arrow .slick-arrow:hover,
+.inv-slide-arrow .slick-arrow.slick-disabled{
     background: #FFE472;
 }
-.inv-slide-arrow .slick-arrow:hover svg path{
+.inv-slide-arrow .slick-arrow:hover svg path,
+.inv-slide-arrow .slick-arrow.slick-disabled svg path{
 	fill: #20488A;
 }
 .inv-mar-btn-80{
