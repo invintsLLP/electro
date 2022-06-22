@@ -1,3 +1,4 @@
+{% if section.settings.image != blank %}
 <section>
 <div class="inv-bg_image" {% if section.settings.image != blank %} style="background-image:url('{{section.settings.image | img_url:"master"}}');background-size:cover;"{% endif %}>
    {% if section.settings.title != blank or section.settings.description != blank %}
@@ -20,6 +21,7 @@
    {% endif %}
 </div>	
 </section>
+ {% endif %}
 {% schema %}
   {
     "name": "Full Banner",
