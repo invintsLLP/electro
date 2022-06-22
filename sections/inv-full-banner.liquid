@@ -6,8 +6,8 @@
         {% if block.settings.title != blank %}
         <h2>{{block.settings.title}}</h2>
         {% endif %}
-        {% if block.settings.description != blank %}
-        <p>{{block.settings.description}}</p>
+        {% if block.settings.subtitle != blank %}
+        <p>{{block.settings.subtitle}}</p>
       {% endif %}
     </div>
   </div>
@@ -32,8 +32,13 @@
         },		
 		{
 			"type":"text",
-			"id":"main_title",
-			"label":"Main Title"
+			"id":"title",
+			"label":"Title"
+		},
+		{
+			"type":"text",
+			"id":"subtitle",
+			"label":"Sub Title"
 		}
 	],
     "presets" : [
