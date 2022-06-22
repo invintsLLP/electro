@@ -126,9 +126,9 @@
               {% endif %}
               {% if block.settings.contact_phone_icon != blank or block.settings.phone_text != blank %}
               <li class="inv--contact-phone">
-                <span>{{block.settings.contact_phone_icon}}</span>
+                {% if block.settings.contact_phone_icon != blank  %}<span>{{block.settings.contact_phone_icon}}</span>{% endif %}
                  <span class="visually-hidden">Phone</span>
-                <h4><a href="tel:{{block.settings.phone_text}}">{{block.settings.phone_text}}</a></h4>
+               {% if block.settings.phone_text != blank  %} <h4><a href="tel:{{block.settings.phone_text}}">{{block.settings.phone_text}}</a></h4>{% endif %}
               </li>
               {% endif %}
             </ul>
