@@ -89,7 +89,7 @@ $(document).ready(function() {
   $('.inno-featured-collection .inv-featured-collection').slick({
     	rows: 2,
       dots: false,
-      infinite: false,
+      infinite: true,
       speed: 300,
       slidesToShow: 4,
       slidesToScroll:4,      
