@@ -940,4 +940,17 @@ span.price-item,.price-item--regular {
 	    z-index: 0;
     background: rgb(15 31 57 / 70%);
 }
+button.inv-hover-btn {
+    border: 2px solid #FFFFFF;
+    border-radius: 6px;
+    background: transparent;
+    padding: 15px 30px;
+    width: 180px;
+}
+button.inv-hover-btn span {
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
  
