@@ -940,7 +940,7 @@ span.price-item,.price-item--regular {
   z-index: 0;
   background: rgb(15 31 57 / 70%);
 }
-.quick-add button{
+.quick-add button.inv-hover-btn{
   background:#ffffff;
   color: #20488A;
 }
@@ -955,9 +955,8 @@ button.inv-hover-btn {
   margin-bottom:8px;
 }
 button.inv-hover-btn span {
-    font-weight: 600;
-    font-size: 16px;
-    text-transform: uppercase;
-    color: #FFFFFF;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
- 
