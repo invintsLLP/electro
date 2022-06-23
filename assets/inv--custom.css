@@ -930,4 +930,8 @@ span.price-item,.price-item--regular {
 	position:relative !important;
   display: block !important;
 }
+.card-wrapper div.card:hover .card__media .motion-reduce{
+	    z-index: 0;
+    background: rgb(15 31 57 / 70%);
+}
  
