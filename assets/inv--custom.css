@@ -923,6 +923,12 @@ span.price-item,.price-item--regular {
   transition:all 0.3s ease 0s;
   display:none;
 }
+.card__media .motion-reduce{
+	-webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition:all 0.3s ease 0s;
+  transition:all 0.3s ease 0s;
+}
 .card-wrapper div.card:hover .quick-cart-button{
 	display:flex;
 }
