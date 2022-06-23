@@ -927,6 +927,6 @@ span.price-item,.price-item--regular {
 	display:flex;
 }
 .motion-reduce,.card__inner{
-	position:relative;
+	position:relative !important;
 }
  
