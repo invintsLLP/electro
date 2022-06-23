@@ -894,7 +894,7 @@ span.price-item,.price-item--regular {
     padding: 20px;
 }
 .card-wrapper {
-    padding:15px;
+    padding:0 15px 30px 15px;
 }
 .card__badge {
     position: absolute;
