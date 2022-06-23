@@ -52,7 +52,8 @@
       "type": "inv--featured-collection",
       "settings": {
         "main_title": "Latest Collection",
-        "collection": "latest"
+        "collection": "latest",
+        "enable_quick_add": true
       }
     },
     "16558879748833b6cf": {
