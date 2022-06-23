@@ -905,3 +905,6 @@ span.price-item,.price-item--regular {
     font-size: 10px;
     padding: 5px 15px;
 }
+.inv-featured-collection {
+    margin: 0 -15px;
+}
