@@ -915,6 +915,15 @@ span.price-item,.price-item--regular {
     left: 0;
     right: 0;
     bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition:all 0.3s ease 0s;
+  transition:all 0.3s ease 0s;
+  display:none;
 }
 .card-wrapper div.card:hover .quick-cart-button{
 	display:block;
