@@ -908,3 +908,6 @@ span.price-item,.price-item--regular {
 .inv-featured-collection {
     margin: 0 -15px;
 }
+.quick-cart-button{
+	display:none;
+}
