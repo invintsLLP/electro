@@ -1,4 +1,4 @@
-
+{% comment %}
     Renders a product card
 
     Accepts:
@@ -15,7 +15,7 @@
     Usage:
     {% render 'card-product', show_vendor: section.settings.show_vendor %}
 
-{% comment %}
+
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
 {% endcomment %}
 {%- if card_product and card_product != empty -%}
