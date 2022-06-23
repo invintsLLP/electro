@@ -142,6 +142,10 @@
             {% render 'price', product: card_product, price_class: '' %}
           </div>
         </div>
+        <div class="quick-cart-button">
+         <div class="quick-view-btn">
+          <button><span>Quick view</span></button>
+        </div>
         {%- if show_quick_add -%}
           <div class="quick-add">
             {%- assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id -%}
@@ -207,8 +211,6 @@
             {%- endif -%}
           </div>        
         {%- endif -%}
-        <div class="quick-view-btn">
-          <button><span>Quick view</span></button>
         </div>
         <div class="card__badge {{ settings.badge_position }}">
           {%- if card_product.available == false -%}
