@@ -926,7 +926,7 @@ span.price-item,.price-item--regular {
 .card-wrapper div.card:hover .quick-cart-button{
 	display:flex;
 }
-.card__inner{
+.motion-reduce,.card__inner{
 	position:relative;
 }
-.card-wrapper div.card:hover 
+ 
