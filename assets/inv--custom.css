@@ -946,6 +946,10 @@ button.inv-hover-btn {
     background: transparent;
     padding: 15px 30px;
     width: 180px;
+  margin-bottom: 8px;
+}
+button.inv-hover-btn:last-child{
+	margin-bottom:0;
 }
 button.inv-hover-btn span {
     font-weight: 600;
