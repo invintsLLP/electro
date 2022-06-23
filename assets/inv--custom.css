@@ -892,6 +892,7 @@ span.price-item,.price-item--regular {
     border: 1px solid #F1F1F1;
     border-radius: 6px;
     padding: 20px;
+  	position:relative;
 }
 .card-wrapper {
     padding:15px;
@@ -908,8 +909,13 @@ span.price-item,.price-item--regular {
 .inv-featured-collection {
     margin: 0 -15px;
 }
-.quick-cart-button{
-	display:none;
+.quick-cart-button {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 .card-wrapper div.card:hover .quick-cart-button{
 	display:block;
