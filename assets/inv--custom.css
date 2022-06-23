@@ -911,3 +911,6 @@ span.price-item,.price-item--regular {
 .quick-cart-button{
 	display:none;
 }
+.card-wrapper div.card:hover .quick-cart-button{
+	display:block;
+}
