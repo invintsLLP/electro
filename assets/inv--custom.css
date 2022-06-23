@@ -935,6 +935,7 @@ span.price-item,.price-item--regular {
 .motion-reduce,.card__inner{
 	position:relative !important;
   display: block !important;
+  cursor: pointer;
 }
 .card-wrapper div.card:hover .card__media .motion-reduce{
   z-index: 0;
