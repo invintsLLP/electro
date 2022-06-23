@@ -910,7 +910,6 @@ span.price-item,.price-item--regular {
     margin: 0 -15px;
 }
 .quick-cart-button {
-    display: none;
     position: absolute;
     top: 0;
     left: 0;
